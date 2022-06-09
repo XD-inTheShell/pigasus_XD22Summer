@@ -1,6 +1,6 @@
 `include "./src/struct_s.sv"
 `include "./src/stats_reg.sv"
-
+`define GTKWAVE
 
 
 module top (
@@ -993,4 +993,15 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
         .in_usr(dma_in_usr_direct),
         .nomatch_pkt(fifo4_in_direct)
     );
+
+`ifdef GTKWAVE
+    // Dump waveform for gtkwave
+    initial begin
+        $dumpfile("top.vcd");
+        // Module to capture and what level, 0 means all wires
+        $dumpvars(0, tb.partition_1);;
+    end
+`endif /* GTKWAVE */
+
 endmodule: top
+
