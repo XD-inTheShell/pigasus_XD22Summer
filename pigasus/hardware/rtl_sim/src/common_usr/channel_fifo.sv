@@ -3,7 +3,9 @@
 module channel_fifo #(
     parameter DUAL_CLOCK = 0,
     parameter FULL_LEVEL = 450,
-    parameter FIFO_DEPTH = 512
+    parameter FIFO_DEPTH = 512,
+    //parameters for generate FIFO counts
+    parameter REC_FIFO = 0
 )(
     input   logic           in_clk,
     input   logic           in_rst,
@@ -77,7 +79,8 @@ unified_pkt_fifo  #(
     .FULL_LEVEL       (FULL_LEVEL),
     .SYMBOLS_PER_BEAT (64),
     .BITS_PER_SYMBOL  (8),
-    .FIFO_DEPTH       (FIFO_DEPTH)
+    .FIFO_DEPTH       (FIFO_DEPTH),
+    .REC_FIFO         (REC_FIFO)
 ) pkt_fifo (
     .in_clk            (in_clk),
     .in_reset          (in_rst),

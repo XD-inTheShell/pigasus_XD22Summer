@@ -16,7 +16,9 @@ module unified_pkt_fifo #(
     //parameters used for generated IP
     parameter SYMBOLS_PER_BEAT    = 64,
     parameter BITS_PER_SYMBOL     = 8,
-    parameter FIFO_DEPTH          = 512
+    parameter FIFO_DEPTH          = 512,
+    //parameters for generate FIFO counts
+    parameter REC_FIFO = 0
 ) (
 	input  logic         in_clk,   
 	input  logic         in_reset, 
@@ -41,165 +43,168 @@ module unified_pkt_fifo #(
 );
 
 generate
-    if(USE_ALMOST_FULL==1)begin
-        always @(posedge in_clk) begin
-            if (in_reset) begin
-                almost_full <= 0;
-            end
-            else begin
-                if (fill_level >= FULL_LEVEL) begin
-                    almost_full <= 1;
-                end
-                else begin
+
+        if(USE_ALMOST_FULL==1)begin
+            always @(posedge in_clk) begin
+                if (in_reset) begin
                     almost_full <= 0;
                 end
-            end
-        end
-
-        //When almost_full is high, upstream should deassert in_valid after some delay. 
-        //If the upstream fails to do so, 'overflow' can happen. 
-        //The upstream thinks the data is passing through,
-        //but the data is not accepted as in_ready is low. 
-        always @(posedge in_clk)begin
-            if (in_reset)begin
-                overflow <= 1'b0;
-            end else begin
-                if(in_valid & !in_ready)begin
-                    overflow <= 1'b1;
-                    //Debug
-                    $error("%s overflows!",FIFO_NAME);
-                    $finish;
+                else begin
+                    if (fill_level >= FULL_LEVEL) begin
+                        almost_full <= 1;
+                    end
+                    else begin
+                        almost_full <= 0;
+                    end
                 end
             end
-        end
-    end else begin
-        assign almost_full = 1'b0;
-        assign overflow = 1'b0;
-    end
 
-    //dual clock
-    if(DUAL_CLOCK==1)begin
-        if(MEM_TYPE=="M20K")begin
-            dc_fifo_wrapper_infill #(
-                .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
-                .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
-                .FIFO_DEPTH(FIFO_DEPTH),
-                .USE_PACKETS(1)
-            )
-            dc_pkt_fifo (
-                .in_clk            (in_clk),
-                .in_reset_n        (!in_reset),
-                .out_clk           (out_clk),
-                .out_reset_n       (!out_reset),
-                .in_csr_address    (0),
-                .in_csr_read       (1'b1),
-                .in_csr_write      (1'b0),
-                .in_csr_readdata   (fill_level),
-                .in_csr_writedata  (0),
-                .in_data           (in_data),
-                .in_valid          (in_valid),
-                .in_ready          (in_ready),
-                .in_startofpacket  (in_startofpacket),
-                .in_endofpacket    (in_endofpacket),
-                .in_empty          (in_empty),
-                .out_data          (out_data),
-                .out_valid         (out_valid),
-                .out_ready         (out_ready),
-                .out_startofpacket (out_startofpacket),
-                .out_endofpacket   (out_endofpacket),
-                .out_empty         (out_empty)
-            );
+            //When almost_full is high, upstream should deassert in_valid after some delay. 
+            //If the upstream fails to do so, 'overflow' can happen. 
+            //The upstream thinks the data is passing through,
+            //but the data is not accepted as in_ready is low. 
+            always @(posedge in_clk)begin
+                if (in_reset)begin
+                    overflow <= 1'b0;
+                end else begin
+                    if(in_valid & !in_ready)begin
+                        overflow <= 1'b1;
+                        //Debug
+                        $error("%s overflows!",FIFO_NAME);
+                        $finish;
+                    end
+                end
+            end
         end else begin
-            dc_fifo_wrapper_infill_mlab #(
-                .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
-                .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
-                .FIFO_DEPTH(FIFO_DEPTH),
-                .USE_PACKETS(1)
-            )
-            dc_pkt_fifo_mlab (
-                .in_clk            (in_clk),
-                .in_reset_n        (!in_reset),
-                .out_clk           (out_clk),
-                .out_reset_n       (!out_reset),
-                .in_csr_address    (0),
-                .in_csr_read       (1'b1),
-                .in_csr_write      (1'b0),
-                .in_csr_readdata   (fill_level),
-                .in_csr_writedata  (0),
-                .in_data           (in_data),
-                .in_valid          (in_valid),
-                .in_ready          (in_ready),
-                .in_startofpacket  (in_startofpacket),
-                .in_endofpacket    (in_endofpacket),
-                .in_empty          (in_empty),
-                .out_data          (out_data),
-                .out_valid         (out_valid),
-                .out_ready         (out_ready),
-                .out_startofpacket (out_startofpacket),
-                .out_endofpacket   (out_endofpacket),
-                .out_empty         (out_empty)
-            );
+            assign almost_full = 1'b0;
+            assign overflow = 1'b0;
         end
-    //single clock
-    end else begin
-        if(MEM_TYPE=="M20K")begin
-            fifo_pkt_wrapper_infill #(
-                .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
-                .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
-                .FIFO_DEPTH(FIFO_DEPTH),
-                .USE_PACKETS(1)
-            )
-            sc_pkt_fifo (
-                .clk               (in_clk),
-                .reset             (in_reset),
-                .csr_address       (0),
-                .csr_read          (1'b1),
-                .csr_write         (1'b0),
-                .csr_readdata      (fill_level),
-                .csr_writedata     (0),
-                .in_data           (in_data),
-                .in_valid          (in_valid),
-                .in_ready          (in_ready),
-                .in_startofpacket  (in_startofpacket),
-                .in_endofpacket    (in_endofpacket),
-                .in_empty          (in_empty),
-                .out_data          (out_data),
-                .out_valid         (out_valid),
-                .out_ready         (out_ready),
-                .out_startofpacket (out_startofpacket),
-                .out_endofpacket   (out_endofpacket),
-                .out_empty         (out_empty)
-            );
+
+        //dual clock
+        if(DUAL_CLOCK==1)begin
+            if(MEM_TYPE=="M20K")begin
+                dc_fifo_wrapper_infill #(
+                    .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
+                    .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
+                    .FIFO_DEPTH(FIFO_DEPTH),
+                    .USE_PACKETS(1)
+                )
+                dc_pkt_fifo (
+                    .in_clk            (in_clk),
+                    .in_reset_n        (!in_reset),
+                    .out_clk           (out_clk),
+                    .out_reset_n       (!out_reset),
+                    .in_csr_address    (0),
+                    .in_csr_read       (1'b1),
+                    .in_csr_write      (1'b0),
+                    .in_csr_readdata   (fill_level),
+                    .in_csr_writedata  (0),
+                    .in_data           (in_data),
+                    .in_valid          (in_valid),
+                    .in_ready          (in_ready),
+                    .in_startofpacket  (in_startofpacket),
+                    .in_endofpacket    (in_endofpacket),
+                    .in_empty          (in_empty),
+                    .out_data          (out_data),
+                    .out_valid         (out_valid),
+                    .out_ready         (out_ready),
+                    .out_startofpacket (out_startofpacket),
+                    .out_endofpacket   (out_endofpacket),
+                    .out_empty         (out_empty)
+                );
+            end else begin
+                dc_fifo_wrapper_infill_mlab #(
+                    .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
+                    .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
+                    .FIFO_DEPTH(FIFO_DEPTH),
+                    .USE_PACKETS(1)
+                )
+                dc_pkt_fifo_mlab (
+                    .in_clk            (in_clk),
+                    .in_reset_n        (!in_reset),
+                    .out_clk           (out_clk),
+                    .out_reset_n       (!out_reset),
+                    .in_csr_address    (0),
+                    .in_csr_read       (1'b1),
+                    .in_csr_write      (1'b0),
+                    .in_csr_readdata   (fill_level),
+                    .in_csr_writedata  (0),
+                    .in_data           (in_data),
+                    .in_valid          (in_valid),
+                    .in_ready          (in_ready),
+                    .in_startofpacket  (in_startofpacket),
+                    .in_endofpacket    (in_endofpacket),
+                    .in_empty          (in_empty),
+                    .out_data          (out_data),
+                    .out_valid         (out_valid),
+                    .out_ready         (out_ready),
+                    .out_startofpacket (out_startofpacket),
+                    .out_endofpacket   (out_endofpacket),
+                    .out_empty         (out_empty)
+                );
+            end
+        //single clock
         end else begin
-            fifo_pkt_wrapper_infill_mlab #(
-                .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
-                .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
-                .FIFO_DEPTH(FIFO_DEPTH),
-                .USE_PACKETS(1)
-            )
-            sc_pkt_fifo_mlab (
-                .clk               (in_clk),
-                .reset             (in_reset),
-                .csr_address       (0),
-                .csr_read          (1'b1),
-                .csr_write         (1'b0),
-                .csr_readdata      (fill_level),
-                .csr_writedata     (0),
-                .in_data           (in_data),
-                .in_valid          (in_valid),
-                .in_ready          (in_ready),
-                .in_startofpacket  (in_startofpacket),
-                .in_endofpacket    (in_endofpacket),
-                .in_empty          (in_empty),
-                .out_data          (out_data),
-                .out_valid         (out_valid),
-                .out_ready         (out_ready),
-                .out_startofpacket (out_startofpacket),
-                .out_endofpacket   (out_endofpacket),
-                .out_empty         (out_empty)
-            );
+            if(MEM_TYPE=="M20K")begin
+                fifo_pkt_wrapper_infill #(
+                    .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
+                    .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
+                    .FIFO_DEPTH(FIFO_DEPTH),
+                    .USE_PACKETS(1)
+                )
+                sc_pkt_fifo (
+                    .clk               (in_clk),
+                    .reset             (in_reset),
+                    .csr_address       (0),
+                    .csr_read          (1'b1),
+                    .csr_write         (1'b0),
+                    .csr_readdata      (fill_level),
+                    .csr_writedata     (0),
+                    .in_data           (in_data),
+                    .in_valid          (in_valid),
+                    .in_ready          (in_ready),
+                    .in_startofpacket  (in_startofpacket),
+                    .in_endofpacket    (in_endofpacket),
+                    .in_empty          (in_empty),
+                    .out_data          (out_data),
+                    .out_valid         (out_valid),
+                    .out_ready         (out_ready),
+                    .out_startofpacket (out_startofpacket),
+                    .out_endofpacket   (out_endofpacket),
+                    .out_empty         (out_empty)
+                );
+            end else begin
+                fifo_pkt_wrapper_infill_mlab #(
+                    .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
+                    .BITS_PER_SYMBOL(BITS_PER_SYMBOL),
+                    .FIFO_DEPTH(FIFO_DEPTH),
+                    .USE_PACKETS(1)
+                )
+                sc_pkt_fifo_mlab (
+                    .clk               (in_clk),
+                    .reset             (in_reset),
+                    .csr_address       (0),
+                    .csr_read          (1'b1),
+                    .csr_write         (1'b0),
+                    .csr_readdata      (fill_level),
+                    .csr_writedata     (0),
+                    .in_data           (in_data),
+                    .in_valid          (in_valid),
+                    .in_ready          (in_ready),
+                    .in_startofpacket  (in_startofpacket),
+                    .in_endofpacket    (in_endofpacket),
+                    .in_empty          (in_empty),
+                    .out_data          (out_data),
+                    .out_valid         (out_valid),
+                    .out_ready         (out_ready),
+                    .out_startofpacket (out_startofpacket),
+                    .out_endofpacket   (out_endofpacket),
+                    .out_empty         (out_empty)
+                );
+            end
         end
-    end
+
+
 endgenerate
 
 endmodule

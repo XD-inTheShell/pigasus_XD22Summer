@@ -3,7 +3,9 @@
 `include "./src/struct_s.sv"
 
 module channel_fifo_service #(
-    parameter DUAL_CLOCK = 0
+    parameter DUAL_CLOCK = 0,
+    //parameters for generate FIFO counts
+    parameter REC_FIFO = 0
    ) (
     input logic Clk_i, 
     input logic Rst_n_i,
@@ -54,7 +56,8 @@ module channel_fifo_service #(
     );
 
 channel_fifo#(
-    .DUAL_CLOCK(DUAL_CLOCK)
+    .DUAL_CLOCK(DUAL_CLOCK),
+    .REC_FIFO(REC_FIFO)
    ) FIFO(
     .in_clk                 (Clk_i),
     .in_rst                 (~Rst_n_i),

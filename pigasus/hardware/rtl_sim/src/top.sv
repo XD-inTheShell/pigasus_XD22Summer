@@ -869,7 +869,10 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
         .out_meta(sm2pg_in_meta_direct),
         .out_usr(sm2pg_in_usr_direct)
     );
-    channel_fifo_service#(.DUAL_CLOCK(1)) my_sm2pg (
+    channel_fifo_service#(
+        .DUAL_CLOCK(1),
+        .REC_FIFO(1)
+        ) my_sm2pg (
         .Clk_i(clk_pcie),
         .Rst_n_i(rst_n_pcie),
         .Clk_o(clk_pcie),
