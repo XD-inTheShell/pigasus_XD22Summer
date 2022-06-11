@@ -6,6 +6,8 @@
 //backpressure. 1 means ONLY use almost_full for backpressure.
 //FULL_LEVEL, if the FIFO occupancy reaches this value, almost_full will be raised.
 `timescale 1 ps / 1 ps
+`define FIFO_TRACE
+
 module unified_pkt_fifo #(
     //new parameters
     parameter FIFO_NAME = "FIFO",
@@ -112,6 +114,46 @@ generate
                     .out_endofpacket   (out_endofpacket),
                     .out_empty         (out_empty)
                 );
+
+                `ifdef FIFO_TRACE
+                    logic [31:0]    cycle_count, test_count;
+
+                    always_ff @(posedge in_clk or negedge !in_reset) begin
+                        if (in_reset)begin
+                            test_count <= 32'b0;
+                            $display("reset");
+                        end
+                        else begin
+                            test_count <= test_count + 1;
+                            $display("test_count: %d",test_count);
+                        end
+                    end
+                    counter #(32, 'b0) cycle_counter (
+                        .clk            (in_clk                     ),
+                        .en             (1'b1                       ),
+                        .rst_l          (!in_reset                   ),
+                        .Q              (cycle_count                )
+                    );
+
+                    reg   has_display;
+                    // always_ff @(posedge in_clk) begin
+                    //     // begin
+                    //     // end
+                    //     $display("cycle count %d", cycle_count);
+                    //     // $display("cycle count %d: in_valid %d, in_ready %d, has_display %d", cycle_count, in_valid, in_ready, has_display);
+                    //     // if(in_reset) begin
+                    //     //     has_display <= 1'b0;
+                    //     //     $display("===System reset===");
+                    //     // end else if (in_valid && in_ready && !has_display) begin
+                    //     //     $display("--Push Event--");
+                    //     //     $display("\tcycle count: %d, fill_level: %d", cycle_count, fill_level);
+                    //     //     has_display <= 1'b1;
+                    //     // end else if(!in_valid || !in_ready) begin
+                    //     //     has_display <= 1'b0;
+                    //     // end
+                    // end
+                    
+                `endif
             end else begin
                 dc_fifo_wrapper_infill_mlab #(
                     .SYMBOLS_PER_BEAT(SYMBOLS_PER_BEAT),
@@ -208,3 +250,24 @@ generate
 endgenerate
 
 endmodule
+
+module counter
+    #(parameter                     WIDTH=0,
+      parameter logic [WIDTH-1:0]   RESET_VAL='b0)
+    (input  logic               clk, en, rst_l,
+     output logic [WIDTH-1:0]   Q);
+
+     always_ff @(posedge clk, negedge rst_l) begin
+         
+         if (!rst_l)begin
+             Q <= RESET_VAL;
+            //  $display("reset");
+         end
+         else if (en) begin
+             Q <= Q + 1;
+            //  $display("Q: %d",Q);
+         end
+     end
+
+
+endmodule: counter
