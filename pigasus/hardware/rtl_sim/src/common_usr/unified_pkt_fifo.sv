@@ -117,9 +117,15 @@ generate
 
                 `ifdef FIFO_TRACE
                     if (REC_FIFO==1) begin
-                        logic [31:0]    cycle_count;
+                        logic [31:0]    cycle_count, fill_count;
                         logic           push_started, pop_started;
-
+                        logic           push_fire, pop_fire;
+                        logic           push_transmit, pop_transmit;
+                        assign push_fire = in_ready && in_valid;
+                        assign pop_fire = out_ready && out_valid;
+                        assign push_transmit = push_fire && push_started;
+                        assign pop_transmit = pop_fire && pop_started;
+                        // Cycle Count
                         always_ff @(posedge in_clk) begin
                             if (in_reset) begin
                                 cycle_count <= 32'b0;
@@ -129,7 +135,14 @@ generate
                                 // $display("%m: cycle_count: %d",cycle_count);
                             end
                         end
-
+                        // Fill Level
+                        always_ff @(posedge in_clk) begin : fill_counter
+                            if(in_reset) begin
+                                fill_count <= 0;
+                            end else begin
+                                fill_count <= fill_count + (push_transmit ? 'b1:'b0) - (pop_transmit ? 'b1:'b0);
+                            end
+                        end
                         // Measure the Push Events
                         always_ff @(posedge in_clk) begin : PUSH_EVENTS
                             if(in_reset) begin
@@ -152,7 +165,7 @@ generate
                                 $display("===System reset===");
                             end else if (in_valid && in_ready) begin
                                 // $display("++Push Event++");
-                                $display("\tPUSH: cycle_count: %d, fill_level: %d", cycle_count, fill_level);
+                                $display("\tPUSH: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end
                             
                         end
@@ -176,7 +189,7 @@ generate
                         always_ff @(posedge in_clk) begin 
                             if(out_valid && out_ready) begin 
                                 // $display("--Pop Event--");
-                                $display("\tPOP: cycle_count: %d, fill_level: %d", cycle_count, fill_level);
+                                $display("\tPOP: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end 
                         end
                     end  
