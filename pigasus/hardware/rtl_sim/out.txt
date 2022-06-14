@@ -1,5 +1,5 @@
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE_NB_LINES=2200" ./src/stats_reg.sv ./src/stats.sv ./src/struct_s.sv ./src/tb.sv ./src/top.sv -sv 
 -- Compiling package stats_reg_sv_unit
 -- Compiling package stats_sv_unit
@@ -12,10 +12,10 @@ vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE
 
 Top level modules:
 	tb
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/common/dsp.sv ./src/common/singledsp.sv ./src/common/st_adapter_512_128.sv ./src/common/st_adapter_512_256.sv ./src/common/st_adapter_512_64.sv ./src/common/st_multiplexer_pkt_3.sv ./src/common/st_multiplexer_pkt.sv ./src/common/st_multiplexer.sv -sv 
 -- Compiling module dsp
 -- Compiling module singledsp
@@ -38,10 +38,10 @@ Top level modules:
 	st_multiplexer_pkt_3
 	st_multiplexer_pkt
 	st_multiplexer
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/common/altera_dcfifo_synchronizer_bundle.v ./src/common/altera_std_synchronizer_nocut.v ./src/common/bram_1port.v ./src/common/bram_dc_diff_width.v ./src/common/bram_simple2port.v ./src/common/bram_true2port.v ./src/common/dc_fifo_core_infill_mlab.v ./src/common/dc_fifo_core_infill.v ./src/common/dc_fifo_core_mlab.v ./src/common/dc_fifo_core.v ./src/common/dc_fifo_wrapper_infill_mlab.v ./src/common/dc_fifo_wrapper_infill.v ./src/common/dc_fifo_wrapper_mlab.v ./src/common/dc_fifo_wrapper.v ./src/common/fifo_core_infill_mlab.v ./src/common/fifo_core_infill.v ./src/common/fifo_core_mlab.v ./src/common/fifo_core.v ./src/common/fifo_pkt_core_infill_mlab.v ./src/common/fifo_pkt_core_infill.v ./src/common/fifo_pkt_core.v ./src/common/fifo_pkt_wrapper_infill_mlab.v ./src/common/fifo_pkt_wrapper_infill.v ./src/common/fifo_pkt_wrapper.v ./src/common/fifo_wrapper_infill_mlab.v ./src/common/fifo_wrapper_infill.v ./src/common/fifo_wrapper_mlab.v ./src/common/fifo_wrapper.v ./src/common/rom_1port_mlab.v ./src/common/rom_2port_noreg.v ./src/common/rom_2port.v 
 -- Compiling module altera_dcfifo_synchronizer_bundle
 -- Compiling module altera_std_synchronizer_nocut
@@ -94,10 +94,10 @@ Top level modules:
 	rom_1port_mlab
 	rom_2port_noreg
 	rom_2port
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/common_usr/acc_hash.sv ./src/common_usr/arb_2_wrapper_infill.sv ./src/common_usr/arb_2_wrapper.sv ./src/common_usr/bypass_nf_back.sv ./src/common_usr/bypass_nf_front_rr.sv ./src/common_usr/bypass_nf_front.sv ./src/common_usr/channel_fifo.sv ./src/common_usr/fork_2.sv ./src/common_usr/hashtable.sv ./src/common_usr/hyper_pipe_rst.sv ./src/common_usr/hyper_pipe.sv ./src/common_usr/interface_debugger.sv ./src/common_usr/mul_hash.sv ./src/common_usr/pkt_almost_full_nogap.sv ./src/common_usr/pkt_almost_full.sv ./src/common_usr/pkt_checker.sv ./src/common_usr/pkt_data_shift.sv ./src/common_usr/rr_arbiter_4.sv ./src/common_usr/rr_arbiter_pkt.sv ./src/common_usr/rr_arbiter.sv ./src/common_usr/rule_depacker_512_128.sv ./src/common_usr/rule_depacker_512_256.sv ./src/common_usr/rule_packer_128_512.sv ./src/common_usr/rule_packer_256_512.sv ./src/common_usr/rule_packer_32_512.sv ./src/common_usr/service_converter.sv ./src/common_usr/stats_cnt.sv ./src/common_usr/traffic_manager.sv ./src/common_usr/unified_fifo.sv ./src/common_usr/unified_pkt_fifo.sv -sv 
 -- Compiling module acc_hash
 -- Compiling module arb_2_wrapper_infill
@@ -202,10 +202,10 @@ Top level modules:
 	stats_cnt_rule
 	traffic_manager
 	counter
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 18
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/common_usr/FIFO2.v 
 -- Compiling module FIFO2
 -- Compiling module FIFO2_Reg
@@ -213,10 +213,10 @@ vlog "+define+SIM" ./src/common_usr/FIFO2.v
 
 Top level modules:
 	FIFO2
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/buffer/data_mover.sv ./src/buffer/dram_wrapper.sv ./src/buffer/esram_wrapper.sv -sv 
 ** Warning: ./src/buffer/data_mover.sv(8): (vlog-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/buffer/data_mover.sv(31): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -239,10 +239,10 @@ Top level modules:
 	data_mover
 	dram_wrapper
 	esram_wrapper
-End time: 02:46:14 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:58 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:14 on Jun 14,2022
+Start time: 11:08:58 on Jun 14,2022
 vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matcher/first_filter.sv ./src/fast_pattern_matcher/frontend.sv ./src/fast_pattern_matcher/hashtable_top.sv ./src/fast_pattern_matcher/reduction_2t1.sv ./src/fast_pattern_matcher/string_matcher.sv ./src/fast_pattern_matcher/string_matcher_wrapper.sv -sv 
 ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vlog-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/fast_pattern_matcher/backend.sv(9): (vlog-13314) Defaulting port 'in_data_0_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -779,10 +779,10 @@ vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matc
 
 Top level modules:
 	string_matcher_wrapper
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:01
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:01
 Errors: 0, Warnings: 518
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/stream_mux.sv ./src/mux/usr_gen.sv -sv 
 ** Warning: ./src/mux/meta_gen.sv(11): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package meta_gen_sv_unit
@@ -800,10 +800,10 @@ vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/str
 Top level modules:
 	stream_demux
 	stream_mux
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 4
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_pattern_matcher/nf_fp_matcher.sv ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv ./src/non_fast_pattern_matcher/nf_rule_reduction.sv ./src/non_fast_pattern_matcher/non_fast_pattern_ht.sv ./src/non_fast_pattern_matcher/non_fast_pattern_shiftor.sv ./src/non_fast_pattern_matcher/non_fast_pattern_sm.sv ./src/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv -sv 
 -- Compiling package cal_fp_sv_unit
 -- Compiling module cal_fp
@@ -830,10 +830,10 @@ vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_patte
 
 Top level modules:
 	non_fast_pattern_wrapper
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 6
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv 
 -- Compiling package input_comp_sv_unit
 -- Compiling module input_comp
@@ -845,10 +845,10 @@ vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv
 Top level modules:
 	input_comp
 	parser
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 2
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/pcie/cpu2fpga_pcie.sv ./src/pcie/fpga2cpu_pcie.sv ./src/pcie/pcie_top.sv ./src/pcie/pdu_data_mover.sv ./src/pcie/pdu_gen.sv ./src/pcie/ring_buffer.sv -sv 
 -- Compiling package cpu2fpga_pcie_sv_unit
 -- Compiling module cpu2fpga_pcie
@@ -881,10 +881,10 @@ Top level modules:
 	pcie_top
 	pdu_data_mover
 	pdu_gen
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 12
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv ./src/port_group/rule_unit.sv -sv 
 ** Warning: ./src/port_group/port_group.sv(20): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package port_group_sv_unit
@@ -905,10 +905,10 @@ vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv 
 
 Top level modules:
 	port_group
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_table.sv ./src/reassembly/flow_table_wrapper.sv ./src/reassembly/hash_func.sv ./src/reassembly/linked_list.sv ./src/reassembly/para_Q.sv -sv 
 ** Warning: ./src/reassembly/flow_reassembly.sv(6): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/reassembly/flow_reassembly.sv(9): (vlog-13314) Defaulting port 'fce_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -955,10 +955,10 @@ vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_tab
 
 Top level modules:
 	flow_table_wrapper
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 30
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:46:15 on Jun 14,2022
+Start time: 11:08:59 on Jun 14,2022
 vlog "+define+SIM" ./src/services/arb_2_af_service.sv ./src/services/arb_2_service.sv ./src/services/bypass_back_service.sv ./src/services/bypass_front_service.sv ./src/services/channel_fifo_service.sv ./src/services/data_mover_service.sv ./src/services/dma_service.sv ./src/services/ethernet_service_multi_out.sv ./src/services/ethernet_service.sv ./src/services/fast_pm_service.sv ./src/services/flow_table_client.sv ./src/services/fork_service.sv ./src/services/identity.sv ./src/services/input_comp_client.sv ./src/services/mkReadAvalon_wrapper.sv ./src/services/mkWriteAvalon_wrapper.sv ./src/services/non_fast_pattern_client.sv ./src/services/non_fast_pm_service_no_bypass.sv ./src/services/non_fast_pm_service.sv ./src/services/parser_client.sv ./src/services/pdu_data_mover_service.sv ./src/services/pdu_gen_client.sv ./src/services/pkt_mux_service.sv ./src/services/port_group_client.sv ./src/services/port_group_matcher_service.sv ./src/services/reassembler_service.sv ./src/services/stream_demux_service.sv ./src/services/stream_mux_service.sv ./src/services/string_matcher_client.sv ./src/services/unified_fifo_service.sv ./src/services/unified_pkt_fifo_service.sv -sv 
 -- Compiling interface server
 -- Compiling interface channel_if
@@ -1215,14 +1215,25 @@ Top level modules:
 	stream_demux_service
 	stream_mux_service
 	unified_pkt_fifo_service
-End time: 02:46:15 on Jun 14,2022, Elapsed time: 0:00:00
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 62
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+Start time: 11:08:59 on Jun 14,2022
+vlog "+define+SIM" "+acc" ./src/common_usr/unified_pkt_fifo.sv 
+-- Compiling module unified_pkt_fifo
+-- Compiling module counter
+
+Top level modules:
+	unified_pkt_fifo
+	counter
+End time: 11:08:59 on Jun 14,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 Reading pref.tcl
 
 # 2020.1
 
 # vsim -L /home/xiyingd/simlib/verilog_libs/altera_mf_ver -L /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver -L /home/xiyingd/simlib/verilog_libs/altera_ver -L /home/xiyingd/simlib/verilog_libs/lpm_ver -L /home/xiyingd/simlib/verilog_libs/sgate_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ct1_ver -c -do "run -all" tb 
-# Start time: 02:46:16 on Jun 14,2022
+# Start time: 11:09:00 on Jun 14,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
@@ -1238,7 +1249,7 @@ Reading pref.tcl
 # ** Warning: ./src/tb.sv(691): (vopt-2241) Connection width does not match width of port 'ddr_rd_req_data'. The port definition is at: ./src/buffer/dram_wrapper.sv(39).
 # ** Warning: ./src/tb.sv(633): (vopt-2241) Connection width does not match width of port 'status_readdata'. The port definition is at: ./src/pcie/pcie_top.sv(65).
 # ** Warning: ./src/tb.sv(595): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(194): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(212): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/services/dma_service.sv(183): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/pcie/pdu_data_mover.sv(54).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
@@ -1249,21 +1260,15 @@ Reading pref.tcl
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
 # ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(194): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(212): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 # ** Warning: ./src/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv(548): (vopt-2241) Connection width does not match width of port 'out_meta_channel'. The port definition is at: ./src/common_usr/traffic_manager.sv(46).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_pkt_fifo.sv(94): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(194): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(194): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-# ** Warning: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv(172): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
-# ** Warning: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv(172): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(212): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(212): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(169): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(194): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/rule_depacker_512_128.sv(114): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
-# ** Warning: ./src/common_usr/rule_depacker_512_128.sv(114): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
-# ** Warning: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv(523): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
-# ** Warning: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv(523): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(42).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(212): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
 # ** Warning: ./src/common_usr/unified_fifo.sv(84): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -1271,8 +1276,6 @@ Reading pref.tcl
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/port_group/port_group.sv(642): (vopt-2241) Connection width does not match width of port 'out_meta_channel'. The port definition is at: ./src/common_usr/traffic_manager.sv(46).
 # ** Warning: ./src/port_group/port_group.sv(537): (vopt-2241) Connection width does not match width of port 'in_rule_empty'. The port definition is at: ./src/common_usr/rule_packer_128_512.sv(8).
-# ** Warning: ./src/port_group/port_group.sv(515): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
-# ** Warning: ./src/port_group/port_group.sv(515): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 # ** Warning: ./src/port_group/port_group.sv(310): (vopt-2241) Connection width does not match width of port 'out_rule_empty'. The port definition is at: ./src/common_usr/rule_depacker_512_128.sv(16).
 # ** Warning: ./src/common_usr/unified_fifo.sv(84): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(84): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(32).
@@ -1285,8 +1288,6 @@ Reading pref.tcl
 # ** Warning: ./src/common/dc_fifo_wrapper_infill_mlab.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill_mlab.v(34).
 # ** Warning: ./src/common_usr/unified_fifo.sv(114): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(114): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(32).
-# ** Warning: ./src/fast_pattern_matcher/backend.sv(6683): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
-# ** Warning: ./src/fast_pattern_matcher/backend.sv(6683): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6665): (vopt-2241) Connection width does not match width of port 'address_a'. The port definition is at: ./src/common/rom_2port.v(19).
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6652): (vopt-2241) Connection width does not match width of port 'address_a'. The port definition is at: ./src/common/rom_2port.v(19).
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6639): (vopt-2241) Connection width does not match width of port 'address_a'. The port definition is at: ./src/common/rom_2port.v(19).
@@ -1300,15 +1301,10 @@ Reading pref.tcl
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
 # ** Warning: ./src/common_usr/unified_fifo.sv(84): (vopt-2241) Connection width does not match width of port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(84): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(32).
-# ** Warning: ./src/services/unified_pkt_fifo_service.sv(50): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 # ** Warning: ./src/top.sv(825): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
-# ** Warning: ./src/services/unified_pkt_fifo_service.sv(50): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 # ** Warning: ./src/top.sv(816): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
-# ** Warning: ./src/services/unified_pkt_fifo_service.sv(50): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 # ** Warning: ./src/top.sv(807): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
-# ** Warning: ./src/services/unified_pkt_fifo_service.sv(50): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 # ** Warning: ./src/top.sv(798): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
-# ** Warning: ./src/services/unified_pkt_fifo_service.sv(50): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 # ** Warning: ./src/top.sv(791): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/services/unified_fifo_service.sv(52): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
@@ -1321,29 +1317,9 @@ Reading pref.tcl
 # ** Warning: ./src/services/unified_fifo_service.sv(52): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_wr_req_data'. The port definition is at: ./src/top.sv(42).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_rd_req_data'. The port definition is at: ./src/top.sv(45).
-# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/pcie/pdu_gen.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/pcie/pdu_data_mover.sv(13): (vopt-13314) Defaulting port 'pdumeta_gen_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/pcie/pdu_data_mover.sv(25): (vopt-13314) Defaulting port 'pdumeta_cpu_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(8): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(31): (vopt-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/services/data_mover_service.sv(21): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1365,6 +1341,29 @@ Reading pref.tcl
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/common_usr/bypass_nf_back.sv(17): (vopt-13314) Defaulting port 'bypass_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/bypass_nf_back.sv(41): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/bypass_nf_front.sv(18): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1454,23 +1453,10 @@ Reading pref.tcl
 # ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_out_pkt0_s'.
 # ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt_s'.
 # ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
-# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/port_group/port_unit.sv(13): (vopt-13314) Defaulting port 'pg_entry_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/port_group/port_unit.sv(17): (vopt-13314) Defaulting port 'range_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/port_group/port_unit.sv(19): (vopt-13314) Defaulting port 'list_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/port_group/rule_unit.sv(15): (vopt-13314) Defaulting port 'rule_pg_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/pcie/pdu_gen.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/pcie/pdu_data_mover.sv(13): (vopt-13314) Defaulting port 'pdumeta_gen_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/pcie/pdu_data_mover.sv(25): (vopt-13314) Defaulting port 'pdumeta_cpu_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/pkt_data_shift.sv(15): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv(6): (vopt-13314) Defaulting port 'in_data_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv(9): (vopt-13314) Defaulting port 'in_data_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1484,8 +1470,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/non_fast_pattern_client.sv(137): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
 # ** Warning: ./src/services/non_fast_pattern_client.sv(137): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
 # ** Warning: ./src/services/non_fast_pattern_client.sv(137): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv(533): (vopt-2958) Implicit wire 'sync_empty' does not have any driver.
-# ** Warning: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv(182): (vopt-2958) Implicit wire 'int_fp_rule_empty' does not have any driver.
 # ** Warning: ./src/common_usr/pkt_data_shift.sv(15): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/interface_debugger.sv(18): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1564,6 +1548,16 @@ Reading pref.tcl
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(6): (vopt-13314) Defaulting port 'in_data_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(9): (vopt-13314) Defaulting port 'in_data_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vopt-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -2078,7 +2072,7 @@ Reading pref.tcl
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=854.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=837.
 # //  ModelSim SE-64 2020.1 Jan 28 2020 Linux 3.10.0-1160.62.1.el7.x86_64
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -2151,8 +2145,10 @@ Reading pref.tcl
 # Loading work.unified_fifo_service(fast__1)
 # Loading work.fifo_wrapper_infill(fast__4)
 # Loading work.unified_pkt_fifo_service(fast)
+# Loading work.unified_pkt_fifo(fast)
 # Loading work.fifo_pkt_wrapper_infill(fast)
 # Loading work.unified_pkt_fifo_service(fast__1)
+# Loading work.unified_pkt_fifo(fast__1)
 # Loading work.dc_fifo_wrapper_infill(fast)
 # Loading work.unified_pkt_fifo_service(fast__2)
 # Loading work.unified_pkt_fifo_service(fast__3)
@@ -2214,11 +2210,14 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__17)
 # Loading work.rom_2port(fast__16)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__18)
+# Loading work.unified_pkt_fifo(fast__2)
 # Loading work.fifo_pkt_wrapper_infill(fast__1)
+# Loading work.unified_pkt_fifo(fast__3)
 # Loading work.dc_fifo_wrapper_infill_mlab(fast)
 # Loading work.fork_2_sv_unit(fast)
 # Loading work.fork_service(fast)
 # Loading work.channel_fifo_service(fast__1)
+# Loading work.unified_pkt_fifo(fast__4)
 # Loading work.dc_fifo_wrapper_infill(fast__2)
 # Loading work.port_group_matcher_service_sv_unit(fast)
 # Loading work.port_group_matcher_service(fast)
@@ -2280,6 +2279,7 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__34)
 # Loading work.dc_fifo_wrapper_infill(fast__3)
 # Loading work.fifo_wrapper_infill_mlab(fast__1)
+# Loading work.unified_pkt_fifo(fast__5)
 # Loading work.fifo_pkt_wrapper_infill(fast__2)
 # Loading work.rom_2port(fast__31)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__35)
@@ -2292,6 +2292,7 @@ Reading pref.tcl
 # Loading work.dma_service(fast)
 # Loading work.fifo_wrapper_infill(fast__6)
 # Loading work.fifo_wrapper_infill(fast__7)
+# Loading work.unified_pkt_fifo(fast__6)
 # Loading work.fifo_pkt_wrapper_infill(fast__3)
 # Loading work.bram_1port(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__36)
@@ -2365,30 +2366,40 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0 File: ./src/top.sv Line: 791
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo3 File: ./src/top.sv Line: 798
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo3/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo3/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo3/my_FIFO/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo4 File: ./src/top.sv Line: 807
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo4/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo4/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo4/my_FIFO/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo1 File: ./src/top.sv Line: 816
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo1/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo1/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo1/my_FIFO/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo2 File: ./src/top.sv Line: 825
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo2/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo2/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo2/my_FIFO/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -2398,9 +2409,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -2410,7 +2421,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/bypass_pkt_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_cdc/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -2929,10 +2940,14 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/hashtable_inst_6_0 File: ./src/fast_pattern_matcher/backend.sv Line: 6652
 # ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'address_a'. The port definition is at: ./src/common/rom_2port.v(19).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/hashtable_inst_7_0 File: ./src/fast_pattern_matcher/backend.sv Line: 6665
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo File: ./src/fast_pattern_matcher/backend.sv Line: 6683
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo File: ./src/fast_pattern_matcher/backend.sv Line: 6683
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/l1_dc_fifo_mlab_0_0/genblk2/genblk1/dc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(32).
@@ -3979,14 +3994,22 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/in_meta_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo File: ./src/port_group/port_group.sv Line: 515
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo File: ./src/port_group/port_group.sv Line: 515
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -3998,9 +4021,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4016,9 +4039,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4028,9 +4051,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4040,9 +4063,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_cdc/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -4051,8 +4074,12 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/pkt_fp_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 84
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/in_fifo_0/genblk2/genblk1/sc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 169
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
@@ -4081,12 +4108,20 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/reduction_unit_0_1/output_fifo/genblk2/genblk1/sc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 169
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/reduction_unit_1_1/output_fifo/genblk2/genblk1/sc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 169
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo File: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv Line: 523
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(42).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo File: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv Line: 523
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo File: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv Line: 172
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo File: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv Line: 172
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf_fork/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4096,9 +4131,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4120,9 +4155,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (1) for port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
@@ -4140,7 +4175,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdumeta_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdu_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 194
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdu_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 212
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/out_fifo0 File: ./src/tb.sv Line: 595
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
@@ -5268,446 +5303,26 @@ Reading pref.tcl
 # Finish PKT emptylist init
 # PKT          0
 # 	PUSH: test_count:       4639, fill_level:          0
-# 	PUSH: test_count:       4640, fill_level:          0
-# 	PUSH: test_count:       4641, fill_level:          1
-# 	PUSH: test_count:       4642, fill_level:          2
-# 	PUSH: test_count:       4643, fill_level:          3
-# 	PUSH: test_count:       4644, fill_level:          4
-# 	PUSH: test_count:       4645, fill_level:          5
 # 	POP: test_count:       4646, fill_level:          6
-# 	PUSH: test_count:       4646, fill_level:          6
-# 	PUSH: test_count:       4647, fill_level:          7
-# 	POP: test_count:       4647, fill_level:          7
-# 	POP: test_count:       4648, fill_level:          8
-# 	PUSH: test_count:       4648, fill_level:          8
-# 	PUSH: test_count:       4649, fill_level:          9
-# 	POP: test_count:       4649, fill_level:          9
-# 	POP: test_count:       4650, fill_level:         10
-# 	PUSH: test_count:       4650, fill_level:         10
-# 	PUSH: test_count:       4651, fill_level:         11
-# 	POP: test_count:       4651, fill_level:         11
-# 	POP: test_count:       4652, fill_level:         11
-# 	PUSH: test_count:       4652, fill_level:         11
-# 	PUSH: test_count:       4653, fill_level:         11
-# 	POP: test_count:       4653, fill_level:         11
-# 	POP: test_count:       4654, fill_level:         11
-# 	PUSH: test_count:       4654, fill_level:         11
-# 	PUSH: test_count:       4655, fill_level:         11
-# 	POP: test_count:       4655, fill_level:         11
-# 	POP: test_count:       4656, fill_level:         11
-# 	PUSH: test_count:       4656, fill_level:         11
-# 	PUSH: test_count:       4657, fill_level:         11
-# 	POP: test_count:       4657, fill_level:         11
-# 	POP: test_count:       4658, fill_level:         11
-# 	PUSH: test_count:       4658, fill_level:         11
-# 	PUSH: test_count:       4659, fill_level:         11
-# 	POP: test_count:       4659, fill_level:         11
-# 	POP: test_count:       4660, fill_level:         11
-# 	PUSH: test_count:       4660, fill_level:         11
-# 	POP: test_count:       4661, fill_level:         11
-# 	POP: test_count:       4662, fill_level:         11
-# 	POP: test_count:       4663, fill_level:         10
-# 	POP: test_count:       4664, fill_level:          9
-# 	POP: test_count:       4665, fill_level:          8
-# 	POP: test_count:       4666, fill_level:          7
-# 	POP: test_count:       4667, fill_level:          6
 # 	PUSH: test_count:       4922, fill_level:          0
-# 	PUSH: test_count:       4923, fill_level:          0
-# 	PUSH: test_count:       4924, fill_level:          1
-# 	PUSH: test_count:       4925, fill_level:          2
-# 	PUSH: test_count:       4926, fill_level:          3
-# 	PUSH: test_count:       4927, fill_level:          4
-# 	PUSH: test_count:       4928, fill_level:          5
 # 	POP: test_count:       4929, fill_level:          6
-# 	PUSH: test_count:       4929, fill_level:          6
-# 	PUSH: test_count:       4930, fill_level:          7
-# 	POP: test_count:       4930, fill_level:          7
-# 	POP: test_count:       4931, fill_level:          8
-# 	PUSH: test_count:       4931, fill_level:          8
-# 	PUSH: test_count:       4932, fill_level:          9
-# 	POP: test_count:       4932, fill_level:          9
-# 	POP: test_count:       4933, fill_level:         10
-# 	PUSH: test_count:       4933, fill_level:         10
-# 	PUSH: test_count:       4934, fill_level:         11
-# 	POP: test_count:       4934, fill_level:         11
-# 	POP: test_count:       4935, fill_level:         11
-# 	PUSH: test_count:       4935, fill_level:         11
-# 	PUSH: test_count:       4936, fill_level:         11
-# 	POP: test_count:       4936, fill_level:         11
-# 	POP: test_count:       4937, fill_level:         11
-# 	PUSH: test_count:       4937, fill_level:         11
-# 	PUSH: test_count:       4938, fill_level:         11
-# 	POP: test_count:       4938, fill_level:         11
-# 	POP: test_count:       4939, fill_level:         11
-# 	PUSH: test_count:       4939, fill_level:         11
-# 	PUSH: test_count:       4940, fill_level:         11
-# 	POP: test_count:       4940, fill_level:         11
-# 	POP: test_count:       4941, fill_level:         11
-# 	PUSH: test_count:       4941, fill_level:         11
-# 	PUSH: test_count:       4942, fill_level:         11
-# 	POP: test_count:       4942, fill_level:         11
-# 	POP: test_count:       4943, fill_level:         11
-# 	PUSH: test_count:       4943, fill_level:         11
-# 	POP: test_count:       4944, fill_level:         11
-# 	POP: test_count:       4945, fill_level:         11
-# 	POP: test_count:       4946, fill_level:         10
-# 	POP: test_count:       4947, fill_level:          9
-# 	POP: test_count:       4948, fill_level:          8
-# 	POP: test_count:       4949, fill_level:          7
-# 	POP: test_count:       4950, fill_level:          6
 # 	PUSH: test_count:       5203, fill_level:          0
-# 	PUSH: test_count:       5204, fill_level:          0
-# 	PUSH: test_count:       5205, fill_level:          1
-# 	PUSH: test_count:       5206, fill_level:          2
-# 	PUSH: test_count:       5207, fill_level:          3
-# 	PUSH: test_count:       5208, fill_level:          4
-# 	PUSH: test_count:       5209, fill_level:          5
 # 	POP: test_count:       5210, fill_level:          6
-# 	PUSH: test_count:       5210, fill_level:          6
-# 	PUSH: test_count:       5211, fill_level:          7
-# 	POP: test_count:       5211, fill_level:          7
-# 	POP: test_count:       5212, fill_level:          8
-# 	PUSH: test_count:       5212, fill_level:          8
-# 	PUSH: test_count:       5213, fill_level:          9
-# 	POP: test_count:       5213, fill_level:          9
-# 	POP: test_count:       5214, fill_level:         10
-# 	PUSH: test_count:       5214, fill_level:         10
-# 	PUSH: test_count:       5215, fill_level:         11
-# 	POP: test_count:       5215, fill_level:         11
-# 	POP: test_count:       5216, fill_level:         11
-# 	PUSH: test_count:       5216, fill_level:         11
-# 	PUSH: test_count:       5217, fill_level:         11
-# 	POP: test_count:       5217, fill_level:         11
-# 	POP: test_count:       5218, fill_level:         11
-# 	PUSH: test_count:       5218, fill_level:         11
-# 	PUSH: test_count:       5219, fill_level:         11
-# 	POP: test_count:       5219, fill_level:         11
-# 	POP: test_count:       5220, fill_level:         11
-# 	PUSH: test_count:       5220, fill_level:         11
-# 	PUSH: test_count:       5221, fill_level:         11
-# 	POP: test_count:       5221, fill_level:         11
-# 	POP: test_count:       5222, fill_level:         11
-# 	PUSH: test_count:       5222, fill_level:         11
-# 	PUSH: test_count:       5223, fill_level:         11
-# 	POP: test_count:       5223, fill_level:         11
-# 	POP: test_count:       5224, fill_level:         11
-# 	PUSH: test_count:       5224, fill_level:         11
-# 	POP: test_count:       5225, fill_level:         11
-# 	POP: test_count:       5226, fill_level:         11
-# 	POP: test_count:       5227, fill_level:         10
-# 	POP: test_count:       5228, fill_level:          9
-# 	POP: test_count:       5229, fill_level:          8
-# 	POP: test_count:       5230, fill_level:          7
-# 	POP: test_count:       5231, fill_level:          6
 # 	PUSH: test_count:       5484, fill_level:          0
-# 	PUSH: test_count:       5485, fill_level:          0
-# 	PUSH: test_count:       5486, fill_level:          1
-# 	PUSH: test_count:       5487, fill_level:          2
-# 	PUSH: test_count:       5488, fill_level:          3
-# 	PUSH: test_count:       5489, fill_level:          4
-# 	PUSH: test_count:       5490, fill_level:          5
 # 	POP: test_count:       5491, fill_level:          6
-# 	PUSH: test_count:       5491, fill_level:          6
-# 	PUSH: test_count:       5492, fill_level:          7
-# 	POP: test_count:       5492, fill_level:          7
-# 	POP: test_count:       5493, fill_level:          8
-# 	PUSH: test_count:       5493, fill_level:          8
-# 	PUSH: test_count:       5494, fill_level:          9
-# 	POP: test_count:       5494, fill_level:          9
-# 	POP: test_count:       5495, fill_level:         10
-# 	PUSH: test_count:       5495, fill_level:         10
-# 	PUSH: test_count:       5496, fill_level:         11
-# 	POP: test_count:       5496, fill_level:         11
-# 	POP: test_count:       5497, fill_level:         11
-# 	PUSH: test_count:       5497, fill_level:         11
-# 	PUSH: test_count:       5498, fill_level:         11
-# 	POP: test_count:       5498, fill_level:         11
-# 	POP: test_count:       5499, fill_level:         11
-# 	PUSH: test_count:       5499, fill_level:         11
-# 	PUSH: test_count:       5500, fill_level:         11
-# 	POP: test_count:       5500, fill_level:         11
-# 	POP: test_count:       5501, fill_level:         11
-# 	PUSH: test_count:       5501, fill_level:         11
-# 	PUSH: test_count:       5502, fill_level:         11
-# 	POP: test_count:       5502, fill_level:         11
-# 	POP: test_count:       5503, fill_level:         11
-# 	PUSH: test_count:       5503, fill_level:         11
-# 	PUSH: test_count:       5504, fill_level:         11
-# 	POP: test_count:       5504, fill_level:         11
-# 	POP: test_count:       5505, fill_level:         11
-# 	PUSH: test_count:       5505, fill_level:         11
-# 	POP: test_count:       5506, fill_level:         11
-# 	POP: test_count:       5507, fill_level:         11
-# 	POP: test_count:       5508, fill_level:         10
-# 	POP: test_count:       5509, fill_level:          9
-# 	POP: test_count:       5510, fill_level:          8
-# 	POP: test_count:       5511, fill_level:          7
-# 	POP: test_count:       5512, fill_level:          6
 # 	PUSH: test_count:       5765, fill_level:          0
-# 	PUSH: test_count:       5766, fill_level:          0
-# 	PUSH: test_count:       5767, fill_level:          1
-# 	PUSH: test_count:       5768, fill_level:          2
-# 	PUSH: test_count:       5769, fill_level:          3
-# 	PUSH: test_count:       5770, fill_level:          4
-# 	PUSH: test_count:       5771, fill_level:          5
 # 	POP: test_count:       5772, fill_level:          6
-# 	PUSH: test_count:       5772, fill_level:          6
-# 	PUSH: test_count:       5773, fill_level:          7
-# 	POP: test_count:       5773, fill_level:          7
-# 	POP: test_count:       5774, fill_level:          8
-# 	PUSH: test_count:       5774, fill_level:          8
-# 	PUSH: test_count:       5775, fill_level:          9
-# 	POP: test_count:       5775, fill_level:          9
-# 	POP: test_count:       5776, fill_level:         10
-# 	PUSH: test_count:       5776, fill_level:         10
-# 	PUSH: test_count:       5777, fill_level:         11
-# 	POP: test_count:       5777, fill_level:         11
-# 	POP: test_count:       5778, fill_level:         11
-# 	PUSH: test_count:       5778, fill_level:         11
-# 	PUSH: test_count:       5779, fill_level:         11
-# 	POP: test_count:       5779, fill_level:         11
-# 	POP: test_count:       5780, fill_level:         11
-# 	PUSH: test_count:       5780, fill_level:         11
-# 	PUSH: test_count:       5781, fill_level:         11
-# 	POP: test_count:       5781, fill_level:         11
-# 	POP: test_count:       5782, fill_level:         11
-# 	PUSH: test_count:       5782, fill_level:         11
-# 	PUSH: test_count:       5783, fill_level:         11
-# 	POP: test_count:       5783, fill_level:         11
-# 	POP: test_count:       5784, fill_level:         11
-# 	PUSH: test_count:       5784, fill_level:         11
-# 	PUSH: test_count:       5785, fill_level:         11
-# 	POP: test_count:       5785, fill_level:         11
-# 	POP: test_count:       5786, fill_level:         11
-# 	PUSH: test_count:       5786, fill_level:         11
-# 	POP: test_count:       5787, fill_level:         11
-# 	POP: test_count:       5788, fill_level:         11
-# 	POP: test_count:       5789, fill_level:         10
-# 	POP: test_count:       5790, fill_level:          9
-# 	POP: test_count:       5791, fill_level:          8
-# 	POP: test_count:       5792, fill_level:          7
-# 	POP: test_count:       5793, fill_level:          6
 # 	PUSH: test_count:       6048, fill_level:          0
-# 	PUSH: test_count:       6049, fill_level:          0
-# 	PUSH: test_count:       6050, fill_level:          1
-# 	PUSH: test_count:       6051, fill_level:          2
-# 	PUSH: test_count:       6052, fill_level:          3
-# 	PUSH: test_count:       6053, fill_level:          4
-# 	PUSH: test_count:       6054, fill_level:          5
 # 	POP: test_count:       6055, fill_level:          6
-# 	PUSH: test_count:       6055, fill_level:          6
-# 	PUSH: test_count:       6056, fill_level:          7
-# 	POP: test_count:       6056, fill_level:          7
-# 	POP: test_count:       6057, fill_level:          8
-# 	PUSH: test_count:       6057, fill_level:          8
-# 	PUSH: test_count:       6058, fill_level:          9
-# 	POP: test_count:       6058, fill_level:          9
-# 	POP: test_count:       6059, fill_level:         10
-# 	PUSH: test_count:       6059, fill_level:         10
-# 	PUSH: test_count:       6060, fill_level:         11
-# 	POP: test_count:       6060, fill_level:         11
-# 	POP: test_count:       6061, fill_level:         11
-# 	PUSH: test_count:       6061, fill_level:         11
-# 	PUSH: test_count:       6062, fill_level:         11
-# 	POP: test_count:       6062, fill_level:         11
-# 	POP: test_count:       6063, fill_level:         11
-# 	PUSH: test_count:       6063, fill_level:         11
-# 	PUSH: test_count:       6064, fill_level:         11
-# 	POP: test_count:       6064, fill_level:         11
-# 	POP: test_count:       6065, fill_level:         11
-# 	PUSH: test_count:       6065, fill_level:         11
-# 	PUSH: test_count:       6066, fill_level:         11
-# 	POP: test_count:       6066, fill_level:         11
-# 	POP: test_count:       6067, fill_level:         11
-# 	PUSH: test_count:       6067, fill_level:         11
-# 	PUSH: test_count:       6068, fill_level:         11
-# 	POP: test_count:       6068, fill_level:         11
-# 	POP: test_count:       6069, fill_level:         11
-# 	PUSH: test_count:       6069, fill_level:         11
-# 	POP: test_count:       6070, fill_level:         11
-# 	POP: test_count:       6071, fill_level:         11
-# 	POP: test_count:       6072, fill_level:         10
-# 	POP: test_count:       6073, fill_level:          9
-# 	POP: test_count:       6074, fill_level:          8
-# 	POP: test_count:       6075, fill_level:          7
-# 	POP: test_count:       6076, fill_level:          6
 # PKT         64
 # 	PUSH: test_count:       6329, fill_level:          0
-# 	PUSH: test_count:       6330, fill_level:          0
-# 	PUSH: test_count:       6331, fill_level:          1
-# 	PUSH: test_count:       6332, fill_level:          2
-# 	PUSH: test_count:       6333, fill_level:          3
-# 	PUSH: test_count:       6334, fill_level:          4
-# 	PUSH: test_count:       6335, fill_level:          5
 # 	POP: test_count:       6336, fill_level:          6
-# 	PUSH: test_count:       6336, fill_level:          6
-# 	PUSH: test_count:       6337, fill_level:          7
-# 	POP: test_count:       6337, fill_level:          7
-# 	POP: test_count:       6338, fill_level:          8
-# 	PUSH: test_count:       6338, fill_level:          8
-# 	PUSH: test_count:       6339, fill_level:          9
-# 	POP: test_count:       6339, fill_level:          9
-# 	POP: test_count:       6340, fill_level:         10
-# 	PUSH: test_count:       6340, fill_level:         10
-# 	PUSH: test_count:       6341, fill_level:         11
-# 	POP: test_count:       6341, fill_level:         11
-# 	POP: test_count:       6342, fill_level:         11
-# 	PUSH: test_count:       6342, fill_level:         11
-# 	PUSH: test_count:       6343, fill_level:         11
-# 	POP: test_count:       6343, fill_level:         11
-# 	POP: test_count:       6344, fill_level:         11
-# 	PUSH: test_count:       6344, fill_level:         11
-# 	PUSH: test_count:       6345, fill_level:         11
-# 	POP: test_count:       6345, fill_level:         11
-# 	POP: test_count:       6346, fill_level:         11
-# 	PUSH: test_count:       6346, fill_level:         11
-# 	PUSH: test_count:       6347, fill_level:         11
-# 	POP: test_count:       6347, fill_level:         11
-# 	POP: test_count:       6348, fill_level:         11
-# 	PUSH: test_count:       6348, fill_level:         11
-# 	PUSH: test_count:       6349, fill_level:         11
-# 	POP: test_count:       6349, fill_level:         11
-# 	POP: test_count:       6350, fill_level:         11
-# 	PUSH: test_count:       6350, fill_level:         11
-# 	POP: test_count:       6351, fill_level:         11
-# 	POP: test_count:       6352, fill_level:         11
-# 	POP: test_count:       6353, fill_level:         10
-# 	POP: test_count:       6354, fill_level:          9
-# 	POP: test_count:       6355, fill_level:          8
-# 	POP: test_count:       6356, fill_level:          7
-# 	POP: test_count:       6357, fill_level:          6
 # 	PUSH: test_count:       6610, fill_level:          0
-# 	PUSH: test_count:       6611, fill_level:          0
-# 	PUSH: test_count:       6612, fill_level:          1
-# 	PUSH: test_count:       6613, fill_level:          2
-# 	PUSH: test_count:       6614, fill_level:          3
-# 	PUSH: test_count:       6615, fill_level:          4
-# 	PUSH: test_count:       6616, fill_level:          5
 # 	POP: test_count:       6617, fill_level:          6
-# 	PUSH: test_count:       6617, fill_level:          6
-# 	PUSH: test_count:       6618, fill_level:          7
-# 	POP: test_count:       6618, fill_level:          7
-# 	POP: test_count:       6619, fill_level:          8
-# 	PUSH: test_count:       6619, fill_level:          8
-# 	PUSH: test_count:       6620, fill_level:          9
-# 	POP: test_count:       6620, fill_level:          9
-# 	POP: test_count:       6621, fill_level:         10
-# 	PUSH: test_count:       6621, fill_level:         10
-# 	PUSH: test_count:       6622, fill_level:         11
-# 	POP: test_count:       6622, fill_level:         11
-# 	POP: test_count:       6623, fill_level:         11
-# 	PUSH: test_count:       6623, fill_level:         11
-# 	PUSH: test_count:       6624, fill_level:         11
-# 	POP: test_count:       6624, fill_level:         11
-# 	POP: test_count:       6625, fill_level:         11
-# 	PUSH: test_count:       6625, fill_level:         11
-# 	PUSH: test_count:       6626, fill_level:         11
-# 	POP: test_count:       6626, fill_level:         11
-# 	POP: test_count:       6627, fill_level:         11
-# 	PUSH: test_count:       6627, fill_level:         11
-# 	PUSH: test_count:       6628, fill_level:         11
-# 	POP: test_count:       6628, fill_level:         11
-# 	POP: test_count:       6629, fill_level:         11
-# 	PUSH: test_count:       6629, fill_level:         11
-# 	PUSH: test_count:       6630, fill_level:         11
-# 	POP: test_count:       6630, fill_level:         11
-# 	POP: test_count:       6631, fill_level:         11
-# 	PUSH: test_count:       6631, fill_level:         11
-# 	POP: test_count:       6632, fill_level:         11
-# 	POP: test_count:       6633, fill_level:         11
-# 	POP: test_count:       6634, fill_level:         10
-# 	POP: test_count:       6635, fill_level:          9
-# 	POP: test_count:       6636, fill_level:          8
-# 	POP: test_count:       6637, fill_level:          7
-# 	POP: test_count:       6638, fill_level:          6
 # 	PUSH: test_count:       6893, fill_level:          0
-# 	PUSH: test_count:       6894, fill_level:          0
-# 	PUSH: test_count:       6895, fill_level:          1
-# 	PUSH: test_count:       6896, fill_level:          2
-# 	PUSH: test_count:       6897, fill_level:          3
-# 	PUSH: test_count:       6898, fill_level:          4
-# 	PUSH: test_count:       6899, fill_level:          5
 # 	POP: test_count:       6900, fill_level:          6
-# 	PUSH: test_count:       6900, fill_level:          6
-# 	PUSH: test_count:       6901, fill_level:          7
-# 	POP: test_count:       6901, fill_level:          7
-# 	POP: test_count:       6902, fill_level:          8
-# 	PUSH: test_count:       6902, fill_level:          8
-# 	PUSH: test_count:       6903, fill_level:          9
-# 	POP: test_count:       6903, fill_level:          9
-# 	POP: test_count:       6904, fill_level:         10
-# 	PUSH: test_count:       6904, fill_level:         10
-# 	PUSH: test_count:       6905, fill_level:         11
-# 	POP: test_count:       6905, fill_level:         11
-# 	POP: test_count:       6906, fill_level:         11
-# 	PUSH: test_count:       6906, fill_level:         11
-# 	PUSH: test_count:       6907, fill_level:         11
-# 	POP: test_count:       6907, fill_level:         11
-# 	POP: test_count:       6908, fill_level:         11
-# 	PUSH: test_count:       6908, fill_level:         11
-# 	PUSH: test_count:       6909, fill_level:         11
-# 	POP: test_count:       6909, fill_level:         11
-# 	POP: test_count:       6910, fill_level:         11
-# 	PUSH: test_count:       6910, fill_level:         11
-# 	PUSH: test_count:       6911, fill_level:         11
-# 	POP: test_count:       6911, fill_level:         11
-# 	POP: test_count:       6912, fill_level:         11
-# 	PUSH: test_count:       6912, fill_level:         11
-# 	PUSH: test_count:       6913, fill_level:         11
-# 	POP: test_count:       6913, fill_level:         11
-# 	POP: test_count:       6914, fill_level:         11
-# 	PUSH: test_count:       6914, fill_level:         11
-# 	POP: test_count:       6915, fill_level:         11
-# 	POP: test_count:       6916, fill_level:         11
-# 	POP: test_count:       6917, fill_level:         10
-# 	POP: test_count:       6918, fill_level:          9
-# 	POP: test_count:       6919, fill_level:          8
-# 	POP: test_count:       6920, fill_level:          7
-# 	POP: test_count:       6921, fill_level:          6
 # 	PUSH: test_count:       7174, fill_level:          0
-# 	PUSH: test_count:       7175, fill_level:          0
-# 	PUSH: test_count:       7176, fill_level:          1
-# 	PUSH: test_count:       7177, fill_level:          2
-# 	PUSH: test_count:       7178, fill_level:          3
-# 	PUSH: test_count:       7179, fill_level:          4
-# 	PUSH: test_count:       7180, fill_level:          5
 # 	POP: test_count:       7181, fill_level:          6
-# 	PUSH: test_count:       7181, fill_level:          6
-# 	PUSH: test_count:       7182, fill_level:          7
-# 	POP: test_count:       7182, fill_level:          7
-# 	POP: test_count:       7183, fill_level:          8
-# 	PUSH: test_count:       7183, fill_level:          8
-# 	PUSH: test_count:       7184, fill_level:          9
-# 	POP: test_count:       7184, fill_level:          9
-# 	POP: test_count:       7185, fill_level:         10
-# 	PUSH: test_count:       7185, fill_level:         10
-# 	PUSH: test_count:       7186, fill_level:         11
-# 	POP: test_count:       7186, fill_level:         11
-# 	POP: test_count:       7187, fill_level:         11
-# 	PUSH: test_count:       7187, fill_level:         11
-# 	PUSH: test_count:       7188, fill_level:         11
-# 	POP: test_count:       7188, fill_level:         11
-# 	POP: test_count:       7189, fill_level:         11
-# 	PUSH: test_count:       7189, fill_level:         11
-# 	PUSH: test_count:       7190, fill_level:         11
-# 	POP: test_count:       7190, fill_level:         11
-# 	POP: test_count:       7191, fill_level:         11
-# 	PUSH: test_count:       7191, fill_level:         11
-# 	PUSH: test_count:       7192, fill_level:         11
-# 	POP: test_count:       7192, fill_level:         11
-# 	POP: test_count:       7193, fill_level:         11
-# 	PUSH: test_count:       7193, fill_level:         11
-# 	PUSH: test_count:       7194, fill_level:         11
-# 	POP: test_count:       7194, fill_level:         11
-# 	POP: test_count:       7195, fill_level:         11
-# 	PUSH: test_count:       7195, fill_level:         11
-# 	POP: test_count:       7196, fill_level:         11
-# 	POP: test_count:       7197, fill_level:         11
-# 	POP: test_count:       7198, fill_level:         10
-# 	POP: test_count:       7199, fill_level:          9
-# 	POP: test_count:       7200, fill_level:          8
-# 	POP: test_count:       7201, fill_level:          7
-# 	POP: test_count:       7202, fill_level:          6
 # STOP READING!
 # REG_IN_PKT                :	       100
 # REG_OUT_PKT               :	        90
@@ -5767,5 +5382,5 @@ Reading pref.tcl
 # Done!
 # ** Note: $finish    : ./src/tb.sv(467)
 #    Time: 131750 ns  Iteration: 1  Instance: /tb
-# End time: 02:46:32 on Jun 14,2022, Elapsed time: 0:00:16
+# End time: 11:09:17 on Jun 14,2022, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 1782

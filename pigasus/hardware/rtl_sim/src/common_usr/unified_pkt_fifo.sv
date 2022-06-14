@@ -118,6 +118,7 @@ generate
                 `ifdef FIFO_TRACE
                     if (REC_FIFO==1) begin
                         logic [31:0]    cycle_count, test_count;
+                        logic           push_started, pop_started;
 
                         always_ff @(posedge in_clk) begin
                             if (in_reset) begin
@@ -129,24 +130,42 @@ generate
                             end
                         end
 
-
-                        always_ff @(posedge in_clk) begin
+                        // Measure the Push Events
+                        always_ff @(posedge in_clk) begin : PUSH_EVENTS
                             if(in_reset) begin
                                 $display("===System reset===");
-                            end else if (in_valid && in_ready) begin
-                                // $display("++Push Event++");
-                                $display("\tPUSH: test_count: %d, fill_level: %d", test_count, fill_level);
+                                push_started <= 'b0;
+                            end else if (!push_started) begin
+                                if(in_ready && in_valid) begin
+                                    push_started <= 'b1;
+                                    // $display("++Push Event++");
+                                    $display("\tPUSH: test_count: %d, fill_level: %d", test_count, fill_level);
+                                end
+                            end else begin
+                                if(!in_ready || !in_valid) begin
+                                    push_started <= 'b0;
+                                end
                             end
                             
                         end
                         logic pop;
-                        always_ff @(posedge in_clk) begin 
-                            if(out_valid && out_ready) begin : POP_EVENTS
-                                pop = 1'b1;
-                                // $display("--Pop Event--");
-                                $display("\tPOP: test_count: %d, fill_level: %d", test_count, fill_level);
+                        // Measure the Pop Events
+                        always_ff @(posedge in_clk) begin : POP_EVENTS
+                            if(in_reset) begin
+                                pop <= 'b0;
+                                pop_started <= 'b0;
+                            end else if(!pop_started) begin 
+                                if(out_ready && out_valid) begin
+                                    pop_started <= 'b1;
+                                    pop <= 'b1;
+                                    // $display("--Pop Event--");
+                                    $display("\tPOP: test_count: %d, fill_level: %d", test_count, fill_level);
+                                end  
                             end else begin
-                                pop = 1'b0;
+                                if(!out_ready || !out_valid) begin
+                                    pop_started <= 'b0;
+                                    pop <= 'b0;
+                                end
                             end
                         end
                     end  
