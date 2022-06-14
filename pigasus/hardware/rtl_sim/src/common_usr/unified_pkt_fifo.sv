@@ -151,7 +151,6 @@ generate
                             end else if (!push_started) begin
                                 if(in_ready && in_valid) begin
                                     push_started <= 'b1;
-                                    // $display("++Push Event++");
                                     $display("+ PKT PUSH: cycle_count: %d", cycle_count);
                                 end
                             end else begin
@@ -161,10 +160,7 @@ generate
                             end 
                         end
                         always_ff @(posedge in_clk) begin
-                            if(in_reset) begin
-                                $display("===System reset===");
-                            end else if (in_valid && in_ready) begin
-                                // $display("++Push Event++");
+                            if(push_transmit) begin
                                 $display("\tPUSH: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end
                             
@@ -187,8 +183,7 @@ generate
                             end
                         end
                         always_ff @(posedge in_clk) begin 
-                            if(out_valid && out_ready) begin 
-                                // $display("--Pop Event--");
+                            if(pop_transmit) begin 
                                 $display("\tPOP: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end 
                         end
