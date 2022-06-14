@@ -187,6 +187,51 @@ generate
                                 $display("\tPOP: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end 
                         end
+
+                        logic cnt_in_ready, cnt_out_ready;
+                        logic cnt_in_valid, cnt_out_valid;
+                        logic in_same_pkt;
+                        logic [31:0] pop_count, pkt_duration;
+
+                        assign cnt_in_valid = in_startofpacket && push_fire;
+                        assign cnt_out_ready = out_startofpacket && pop_fire;
+                        assign pkt_duration = cycle_count - pop_count;
+                        always_ff @(posedge in_clk) begin
+                            if(cnt_out_valid && cnt_out_ready)
+                                $display("\tpkt duration: %d", pkt_duration);
+                        end
+
+                        dc_fifo_wrapper_infill #(
+                            .SYMBOLS_PER_BEAT(1),
+                            .BITS_PER_SYMBOL(32),
+                            .FIFO_DEPTH(FIFO_DEPTH),
+                            .USE_PACKETS(0)
+                        )
+                        pkt_entry_table ( 
+                            .in_clk            (in_clk),
+                            .in_reset_n        (!in_reset),
+                            .out_clk           (out_clk),
+                            .out_reset_n       (!out_reset),
+                            .in_csr_address    (0),
+                            .in_csr_read       (1'b1),
+                            .in_csr_write      (1'b0),
+                            .in_csr_readdata   (),
+                            .in_csr_writedata  (0),
+                            .in_data           (cycle_count),
+                            .in_valid          (cnt_in_valid),
+                            .in_ready          (cnt_in_ready),
+                            .in_startofpacket  (1'b0),
+                            .in_endofpacket    (1'b0),
+                            .in_empty          (0),
+                            .out_data          (pop_count),
+                            .out_valid         (cnt_out_valid),
+                            .out_ready         (cnt_out_ready),
+                            .out_startofpacket (),
+                            .out_endofpacket   (),
+                            .out_empty         ()
+                        );
+                        
+
                     end  
                 `endif
             end else begin

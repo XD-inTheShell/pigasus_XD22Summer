@@ -52,6 +52,7 @@ vlog +define+SIM ./src/reassembly/*.sv -sv
 vlog +define+SIM ./src/services/*.sv -sv
 
 vlog +define+SIM +acc ./src/common_usr/unified_pkt_fifo.sv
+vlog +define+SIM +acc ./src/common/dc_fifo_wrapper_infill.v
 
 
 #GUI full debug
