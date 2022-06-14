@@ -116,43 +116,40 @@ generate
                 );
 
                 `ifdef FIFO_TRACE
-                    logic [31:0]    cycle_count, test_count;
+                    if (REC_FIFO==1) begin
+                        logic [31:0]    cycle_count, test_count;
 
-                    always_ff @(posedge in_clk or negedge !in_reset) begin
-                        if (in_reset)begin
-                            test_count <= 32'b0;
-                            $display("reset");
+                        always_ff @(posedge in_clk) begin
+                            if (in_reset) begin
+                                test_count <= 32'b0;
+                            end
+                            else begin
+                                test_count <= test_count + 1;
+                                // $display("%m: test_count: %d",test_count);
+                            end
                         end
-                        else begin
-                            test_count <= test_count + 1;
-                            $display("test_count: %d",test_count);
-                        end
-                    end
-                    counter #(32, 'b0) cycle_counter (
-                        .clk            (in_clk                     ),
-                        .en             (1'b1                       ),
-                        .rst_l          (!in_reset                   ),
-                        .Q              (cycle_count                )
-                    );
 
-                    reg   has_display;
-                    // always_ff @(posedge in_clk) begin
-                    //     // begin
-                    //     // end
-                    //     $display("cycle count %d", cycle_count);
-                    //     // $display("cycle count %d: in_valid %d, in_ready %d, has_display %d", cycle_count, in_valid, in_ready, has_display);
-                    //     // if(in_reset) begin
-                    //     //     has_display <= 1'b0;
-                    //     //     $display("===System reset===");
-                    //     // end else if (in_valid && in_ready && !has_display) begin
-                    //     //     $display("--Push Event--");
-                    //     //     $display("\tcycle count: %d, fill_level: %d", cycle_count, fill_level);
-                    //     //     has_display <= 1'b1;
-                    //     // end else if(!in_valid || !in_ready) begin
-                    //     //     has_display <= 1'b0;
-                    //     // end
-                    // end
-                    
+
+                        always_ff @(posedge in_clk) begin
+                            if(in_reset) begin
+                                $display("===System reset===");
+                            end else if (in_valid && in_ready) begin
+                                // $display("++Push Event++");
+                                $display("\tPUSH: test_count: %d, fill_level: %d", test_count, fill_level);
+                            end
+                            
+                        end
+                        logic pop;
+                        always_ff @(posedge in_clk) begin 
+                            if(out_valid && out_ready) begin : POP_EVENTS
+                                pop = 1'b1;
+                                // $display("--Pop Event--");
+                                $display("\tPOP: test_count: %d, fill_level: %d", test_count, fill_level);
+                            end else begin
+                                pop = 1'b0;
+                            end
+                        end
+                    end  
                 `endif
             end else begin
                 dc_fifo_wrapper_infill_mlab #(

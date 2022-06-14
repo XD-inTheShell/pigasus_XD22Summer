@@ -1,6 +1,7 @@
 #!/bin/sh
 rm -r work
-rm vsim.wlf
+rm -r -f libraries/work
+rm -f vsim.wlf
 
 altera_ver="$SIM_LIB_PATH/altera_ver"
 lpm_ver="$SIM_LIB_PATH/lpm_ver"
@@ -33,6 +34,9 @@ cd ../../
 
 vlog +define+SIM +define+PKT_FILE=\"$PKT_FILE\" +define+PKT_FILE_NB_LINES=$PKT_FILE_NB_LINES ./src/*.*v -sv 
 #vlog *.v
+
+
+
 vlog +define+SIM ./src/common/*.sv -sv
 vlog +define+SIM ./src/common/*.v
 vlog +define+SIM ./src/common_usr/*.sv -sv
@@ -47,7 +51,11 @@ vlog +define+SIM ./src/port_group/*.sv -sv
 vlog +define+SIM ./src/reassembly/*.sv -sv
 vlog +define+SIM ./src/services/*.sv -sv
 
+vlog +define+SIM +acc ./src/common_usr/unified_pkt_fifo.sv
+
+
 #GUI full debug
 #vsim tb -L $altera_mf_ver -L $altera_lnsim_ver -L $altera_ver -L $lpm_ver -L $sgate_ver -L $fourteennm_ver -L $fourteennm_ct1_ver -voptargs="+acc"
 #Fast
 vsim -L $altera_mf_ver -L $altera_lnsim_ver -L $altera_ver -L $lpm_ver -L $sgate_ver -L $fourteennm_ver -L $fourteennm_ct1_ver -c -do "run -all" tb
+# vsim -L $altera_mf_ver -L $altera_lnsim_ver -L $altera_ver -L $lpm_ver -L $sgate_ver -L $fourteennm_ver -L $fourteennm_ct1_ver -c -do "run -all" -voptargs="+acc" tb

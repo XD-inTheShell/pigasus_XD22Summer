@@ -1002,7 +1002,7 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
     initial begin
         $dumpfile("top.vcd");
         // Module to capture and what level, 0 means all wires
-        $dumpvars(0, tb);
+        $dumpvars(0, tb.partition_1.my_sm2pg);
     end
 `endif /* GTKWAVE */
 
