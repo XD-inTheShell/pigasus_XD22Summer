@@ -121,6 +121,7 @@ generate
                         logic           push_started, pop_started;
                         logic           push_fire, pop_fire;
                         logic           push_transmit, pop_transmit;
+                        logic           in_pkt, out_pkt;
                         assign push_fire = in_ready && in_valid;
                         assign pop_fire = out_ready && out_valid;
                         assign push_transmit = push_fire && push_started;
@@ -141,17 +142,34 @@ generate
                                 fill_count <= 0;
                             end else begin
                                 fill_count <= fill_count + (push_transmit ? 'b1:'b0) - (pop_transmit ? 'b1:'b0);
+                            end  
+                        end
+                        always_ff @(posedge in_clk) begin: PKT_COUNT
+                            if(in_reset) begin
+                                in_pkt <= 0;
+                                out_pkt <= 0;
+                            end else begin
+                                if(push_fire && in_startofpacket) begin
+                                    in_pkt <= 'b1;
+                                    $display("+ PKT PUSH: cycle_count: %d", cycle_count);
+                                end else if(push_fire && in_endofpacket) begin
+                                    in_pkt <= 'b0;
+                                end
+                                if(pop_fire && out_startofpacket) begin
+                                    out_pkt <= 'b1;
+                                    $display("- PKT POP: cycle_count: %d", cycle_count);
+                                end else if (pop_fire && out_endofpacket) begin
+                                    out_pkt <= 'b0;
+                                end
                             end
                         end
                         // Measure the Push Events
                         always_ff @(posedge in_clk) begin : PUSH_EVENTS
                             if(in_reset) begin
-                                $display("===System reset===");
                                 push_started <= 'b0;
                             end else if (!push_started) begin
                                 if(in_ready && in_valid) begin
                                     push_started <= 'b1;
-                                    $display("+ PKT PUSH: cycle_count: %d", cycle_count);
                                 end
                             end else begin
                                 if(!in_ready || !in_valid) begin
@@ -173,8 +191,6 @@ generate
                             end else if(!pop_started) begin 
                                 if(out_ready && out_valid) begin
                                     pop_started <= 'b1;
-                                    // $display("--Pop Event--");
-                                    $display("- PKT POP: cycle_count: %d", cycle_count);
                                 end  
                             end else begin
                                 if(!out_ready || !out_valid) begin
@@ -190,7 +206,6 @@ generate
 
                         logic cnt_in_ready, cnt_out_ready;
                         logic cnt_in_valid, cnt_out_valid;
-                        logic in_same_pkt;
                         logic [31:0] pop_count, pkt_duration;
 
                         assign cnt_in_valid = in_startofpacket && push_fire;
@@ -198,7 +213,7 @@ generate
                         assign pkt_duration = cycle_count - pop_count;
                         always_ff @(posedge in_clk) begin
                             if(cnt_out_valid && cnt_out_ready)
-                                $display("\tpkt duration: %d", pkt_duration);
+                                $display("\t* pkt in FIFO duration: %d", pkt_duration);
                         end
 
                         dc_fifo_wrapper_infill #(
