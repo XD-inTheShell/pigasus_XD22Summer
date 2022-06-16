@@ -117,6 +117,16 @@ generate
 
                 `ifdef FIFO_TRACE
                     if (REC_FIFO==1) begin
+                        int fd_w;
+                        initial begin
+                            string name = {"./",$sformatf("%m"),".txt"};
+                            fd_w = $fopen (name, "w");
+                            if(fd_w) $display("open success");
+                            else $display("open failed");
+                            $fdisplay(fd_w, "Start Trace");
+                            // $fclose(fd_w);
+
+                        end
                         logic [31:0]    cycle_count, fill_count;
                         logic           push_started, pop_started;
                         logic           push_fire, pop_fire;
@@ -151,13 +161,13 @@ generate
                             end else begin
                                 if(push_fire && in_startofpacket) begin
                                     in_pkt <= 'b1;
-                                    $display("+ PKT PUSH: cycle_count: %d", cycle_count);
+                                    $fdisplay(fd_w, "+ PKT PUSH: cycle_count: %d", cycle_count);
                                 end else if(push_fire && in_endofpacket) begin
                                     in_pkt <= 'b0;
                                 end
                                 if(pop_fire && out_startofpacket) begin
                                     out_pkt <= 'b1;
-                                    $display("- PKT POP: cycle_count: %d", cycle_count);
+                                    $fdisplay(fd_w, "- PKT POP: cycle_count: %d", cycle_count);
                                 end else if (pop_fire && out_endofpacket) begin
                                     out_pkt <= 'b0;
                                 end
@@ -179,7 +189,7 @@ generate
                         end
                         always_ff @(posedge in_clk) begin
                             if(push_transmit) begin
-                                $display("\tPUSH: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
+                                $fdisplay(fd_w, "\tPUSH: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end
                             
                         end
@@ -200,7 +210,7 @@ generate
                         end
                         always_ff @(posedge in_clk) begin 
                             if(pop_transmit) begin 
-                                $display("\tPOP: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
+                                $fdisplay(fd_w, "\tPOP: cycle_count: %d, fill_count: %d", cycle_count, fill_count);
                             end 
                         end
 
@@ -213,7 +223,7 @@ generate
                         assign pkt_duration = cycle_count - pop_count;
                         always_ff @(posedge in_clk) begin
                             if(cnt_out_valid && cnt_out_ready)
-                                $display("\t* pkt in FIFO duration: %d", pkt_duration);
+                            $fdisplay(fd_w, "\t* pkt in FIFO duration: %d", pkt_duration);
                         end
 
                         dc_fifo_wrapper_infill #(
