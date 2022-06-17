@@ -1,5 +1,5 @@
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:38 on Jun 17,2022
 vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE_NB_LINES=2200" ./src/stats_reg.sv ./src/stats.sv ./src/struct_s.sv ./src/tb.sv ./src/top.sv -sv 
 -- Compiling package stats_reg_sv_unit
 -- Compiling package stats_sv_unit
@@ -12,10 +12,10 @@ vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE
 
 Top level modules:
 	tb
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:38 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:38 on Jun 17,2022
 vlog "+define+SIM" ./src/common/dsp.sv ./src/common/singledsp.sv ./src/common/st_adapter_512_128.sv ./src/common/st_adapter_512_256.sv ./src/common/st_adapter_512_64.sv ./src/common/st_multiplexer_pkt_3.sv ./src/common/st_multiplexer_pkt.sv ./src/common/st_multiplexer.sv -sv 
 -- Compiling module dsp
 -- Compiling module singledsp
@@ -38,10 +38,10 @@ Top level modules:
 	st_multiplexer_pkt_3
 	st_multiplexer_pkt
 	st_multiplexer
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:38 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:38 on Jun 17,2022
 vlog "+define+SIM" ./src/common/altera_dcfifo_synchronizer_bundle.v ./src/common/altera_std_synchronizer_nocut.v ./src/common/bram_1port.v ./src/common/bram_dc_diff_width.v ./src/common/bram_simple2port.v ./src/common/bram_true2port.v ./src/common/dc_fifo_core_infill_mlab.v ./src/common/dc_fifo_core_infill.v ./src/common/dc_fifo_core_mlab.v ./src/common/dc_fifo_core.v ./src/common/dc_fifo_wrapper_infill_mlab.v ./src/common/dc_fifo_wrapper_infill.v ./src/common/dc_fifo_wrapper_mlab.v ./src/common/dc_fifo_wrapper.v ./src/common/fifo_core_infill_mlab.v ./src/common/fifo_core_infill.v ./src/common/fifo_core_mlab.v ./src/common/fifo_core.v ./src/common/fifo_pkt_core_infill_mlab.v ./src/common/fifo_pkt_core_infill.v ./src/common/fifo_pkt_core.v ./src/common/fifo_pkt_wrapper_infill_mlab.v ./src/common/fifo_pkt_wrapper_infill.v ./src/common/fifo_pkt_wrapper.v ./src/common/fifo_wrapper_infill_mlab.v ./src/common/fifo_wrapper_infill.v ./src/common/fifo_wrapper_mlab.v ./src/common/fifo_wrapper.v ./src/common/rom_1port_mlab.v ./src/common/rom_2port_noreg.v ./src/common/rom_2port.v 
 -- Compiling module altera_dcfifo_synchronizer_bundle
 -- Compiling module altera_std_synchronizer_nocut
@@ -94,10 +94,10 @@ Top level modules:
 	rom_1port_mlab
 	rom_2port_noreg
 	rom_2port
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:38 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:38 on Jun 17,2022
 vlog "+define+SIM" ./src/common_usr/acc_hash.sv ./src/common_usr/arb_2_wrapper_infill.sv ./src/common_usr/arb_2_wrapper.sv ./src/common_usr/bypass_nf_back.sv ./src/common_usr/bypass_nf_front_rr.sv ./src/common_usr/bypass_nf_front.sv ./src/common_usr/channel_fifo.sv ./src/common_usr/fork_2.sv ./src/common_usr/hashtable.sv ./src/common_usr/hyper_pipe_rst.sv ./src/common_usr/hyper_pipe.sv ./src/common_usr/interface_debugger.sv ./src/common_usr/mul_hash.sv ./src/common_usr/pkt_almost_full_nogap.sv ./src/common_usr/pkt_almost_full.sv ./src/common_usr/pkt_checker.sv ./src/common_usr/pkt_data_shift.sv ./src/common_usr/rr_arbiter_4.sv ./src/common_usr/rr_arbiter_pkt.sv ./src/common_usr/rr_arbiter.sv ./src/common_usr/rule_depacker_512_128.sv ./src/common_usr/rule_depacker_512_256.sv ./src/common_usr/rule_packer_128_512.sv ./src/common_usr/rule_packer_256_512.sv ./src/common_usr/rule_packer_32_512.sv ./src/common_usr/service_converter.sv ./src/common_usr/stats_cnt.sv ./src/common_usr/traffic_manager.sv ./src/common_usr/unified_fifo.sv ./src/common_usr/unified_pkt_fifo.sv -sv 
 -- Compiling module acc_hash
 -- Compiling module arb_2_wrapper_infill
@@ -168,8 +168,7 @@ vlog "+define+SIM" ./src/common_usr/acc_hash.sv ./src/common_usr/arb_2_wrapper_i
 ** Warning: ./src/common_usr/traffic_manager.sv(19): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling module unified_fifo
 -- Compiling module unified_pkt_fifo
-** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vlog-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-or remove the initialization in the declaration of variable.
+-- Compiling module general_fifo_tracker
 -- Compiling module counter
 
 Top level modules:
@@ -204,10 +203,10 @@ Top level modules:
 	stats_cnt_rule
 	traffic_manager
 	counter
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
-Errors: 0, Warnings: 19
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 18
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/common_usr/FIFO2.v 
 -- Compiling module FIFO2
 -- Compiling module FIFO2_Reg
@@ -215,10 +214,10 @@ vlog "+define+SIM" ./src/common_usr/FIFO2.v
 
 Top level modules:
 	FIFO2
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/buffer/data_mover.sv ./src/buffer/dram_wrapper.sv ./src/buffer/esram_wrapper.sv -sv 
 ** Warning: ./src/buffer/data_mover.sv(8): (vlog-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/buffer/data_mover.sv(31): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -241,10 +240,10 @@ Top level modules:
 	data_mover
 	dram_wrapper
 	esram_wrapper
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matcher/first_filter.sv ./src/fast_pattern_matcher/frontend.sv ./src/fast_pattern_matcher/hashtable_top.sv ./src/fast_pattern_matcher/reduction_2t1.sv ./src/fast_pattern_matcher/string_matcher.sv ./src/fast_pattern_matcher/string_matcher_wrapper.sv -sv 
 ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vlog-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/fast_pattern_matcher/backend.sv(9): (vlog-13314) Defaulting port 'in_data_0_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -781,10 +780,10 @@ vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matc
 
 Top level modules:
 	string_matcher_wrapper
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 518
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/stream_mux.sv ./src/mux/usr_gen.sv -sv 
 ** Warning: ./src/mux/meta_gen.sv(11): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package meta_gen_sv_unit
@@ -802,10 +801,10 @@ vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/str
 Top level modules:
 	stream_demux
 	stream_mux
-End time: 17:25:31 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 4
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:31 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_pattern_matcher/nf_fp_matcher.sv ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv ./src/non_fast_pattern_matcher/nf_rule_reduction.sv ./src/non_fast_pattern_matcher/non_fast_pattern_ht.sv ./src/non_fast_pattern_matcher/non_fast_pattern_shiftor.sv ./src/non_fast_pattern_matcher/non_fast_pattern_sm.sv ./src/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv -sv 
 -- Compiling package cal_fp_sv_unit
 -- Compiling module cal_fp
@@ -832,10 +831,10 @@ vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_patte
 
 Top level modules:
 	non_fast_pattern_wrapper
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:01
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 6
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv 
 -- Compiling package input_comp_sv_unit
 -- Compiling module input_comp
@@ -847,10 +846,10 @@ vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv
 Top level modules:
 	input_comp
 	parser
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 2
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/pcie/cpu2fpga_pcie.sv ./src/pcie/fpga2cpu_pcie.sv ./src/pcie/pcie_top.sv ./src/pcie/pdu_data_mover.sv ./src/pcie/pdu_gen.sv ./src/pcie/ring_buffer.sv -sv 
 -- Compiling package cpu2fpga_pcie_sv_unit
 -- Compiling module cpu2fpga_pcie
@@ -883,10 +882,10 @@ Top level modules:
 	pcie_top
 	pdu_data_mover
 	pdu_gen
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 12
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv ./src/port_group/rule_unit.sv -sv 
 ** Warning: ./src/port_group/port_group.sv(20): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package port_group_sv_unit
@@ -907,10 +906,10 @@ vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv 
 
 Top level modules:
 	port_group
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_table.sv ./src/reassembly/flow_table_wrapper.sv ./src/reassembly/hash_func.sv ./src/reassembly/linked_list.sv ./src/reassembly/para_Q.sv -sv 
 ** Warning: ./src/reassembly/flow_reassembly.sv(6): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/reassembly/flow_reassembly.sv(9): (vlog-13314) Defaulting port 'fce_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -957,10 +956,10 @@ vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_tab
 
 Top level modules:
 	flow_table_wrapper
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 30
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" ./src/services/arb_2_af_service.sv ./src/services/arb_2_service.sv ./src/services/bypass_back_service.sv ./src/services/bypass_front_service.sv ./src/services/channel_fifo_service.sv ./src/services/data_mover_service.sv ./src/services/dma_service.sv ./src/services/ethernet_service_multi_out.sv ./src/services/ethernet_service.sv ./src/services/fast_pm_service.sv ./src/services/flow_table_client.sv ./src/services/fork_service.sv ./src/services/identity.sv ./src/services/input_comp_client.sv ./src/services/mkReadAvalon_wrapper.sv ./src/services/mkWriteAvalon_wrapper.sv ./src/services/non_fast_pattern_client.sv ./src/services/non_fast_pm_service_no_bypass.sv ./src/services/non_fast_pm_service.sv ./src/services/parser_client.sv ./src/services/pdu_data_mover_service.sv ./src/services/pdu_gen_client.sv ./src/services/pkt_mux_service.sv ./src/services/port_group_client.sv ./src/services/port_group_matcher_service.sv ./src/services/reassembler_service.sv ./src/services/stream_demux_service.sv ./src/services/stream_mux_service.sv ./src/services/string_matcher_client.sv ./src/services/unified_fifo_service.sv ./src/services/unified_pkt_fifo_service.sv -sv 
 -- Compiling interface server
 -- Compiling interface channel_if
@@ -1217,36 +1216,35 @@ Top level modules:
 	stream_demux_service
 	stream_mux_service
 	unified_pkt_fifo_service
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 62
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" "+acc" ./src/common_usr/unified_pkt_fifo.sv 
 -- Compiling module unified_pkt_fifo
-** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vlog-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-or remove the initialization in the declaration of variable.
+-- Compiling module general_fifo_tracker
 -- Compiling module counter
 
 Top level modules:
 	unified_pkt_fifo
 	counter
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
-Errors: 0, Warnings: 1
+End time: 18:33:39 on Jun 17,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 17:25:32 on Jun 16,2022
+Start time: 18:33:39 on Jun 17,2022
 vlog "+define+SIM" "+acc" ./src/common/dc_fifo_wrapper_infill.v 
 -- Compiling module dc_fifo_wrapper_infill
 
 Top level modules:
 	dc_fifo_wrapper_infill
-End time: 17:25:32 on Jun 16,2022, Elapsed time: 0:00:00
+End time: 18:33:40 on Jun 17,2022, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
 Reading pref.tcl
 
 # 2020.1
 
 # vsim -L /home/xiyingd/simlib/verilog_libs/altera_mf_ver -L /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver -L /home/xiyingd/simlib/verilog_libs/altera_ver -L /home/xiyingd/simlib/verilog_libs/lpm_ver -L /home/xiyingd/simlib/verilog_libs/sgate_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ct1_ver -c -do "run -all" tb 
-# Start time: 17:25:32 on Jun 16,2022
+# Start time: 18:33:40 on Jun 17,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
@@ -1257,25 +1255,30 @@ Reading pref.tcl
 # ** Warning: ./src/tb.sv(691): (vopt-2241) Connection width does not match width of port 'ddr_wr_req_data'. The port definition is at: ./src/buffer/dram_wrapper.sv(34).
 # ** Warning: ./src/tb.sv(691): (vopt-2241) Connection width does not match width of port 'ddr_rd_req_data'. The port definition is at: ./src/buffer/dram_wrapper.sv(39).
 # ** Warning: ./src/tb.sv(633): (vopt-2241) Connection width does not match width of port 'status_readdata'. The port definition is at: ./src/pcie/pcie_top.sv(65).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(302): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/services/dma_service.sv(183): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/pcie/pdu_data_mover.sv(54).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/services/dma_service.sv(167): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
-# ** Warning: ./src/top.sv(970): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
+# ** Warning: ./src/top.sv(979): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
 # ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(302): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(411): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(411): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(32).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
+# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
 # ** Warning: ./src/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv(548): (vopt-2241) Connection width does not match width of port 'out_meta_channel'. The port definition is at: ./src/common_usr/traffic_manager.sv(46).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(302): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(302): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(169): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(302): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
@@ -1319,9 +1322,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/unified_fifo_service.sv(52): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_wr_req_data'. The port definition is at: ./src/top.sv(42).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_rd_req_data'. The port definition is at: ./src/top.sv(45).
-# ** Warning: ./src/pcie/pdu_gen.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/pcie/pdu_data_mover.sv(13): (vopt-13314) Defaulting port 'pdumeta_gen_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/pcie/pdu_data_mover.sv(25): (vopt-13314) Defaulting port 'pdumeta_cpu_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(8): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(31): (vopt-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/services/data_mover_service.sv(21): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1359,6 +1359,7 @@ Reading pref.tcl
 # ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
 # ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
 # ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
 # ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
 # ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
@@ -1441,20 +1442,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
-# ** Warning: ./src/common_usr/unified_pkt_fifo.sv(122): (vopt-2244) Variable 'name' is implicitly static. You must either explicitly declare it as static or automatic
-# or remove the initialization in the declaration of variable.
 # ** Warning: ./src/services/fork_service.sv(76): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
 # ** Warning: ./src/services/fork_service.sv(76): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/services/fork_service.sv(86): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt0_inst'.  Expected 9, found 8.
@@ -1473,6 +1460,19 @@ Reading pref.tcl
 # ** Warning: ./src/port_group/port_unit.sv(17): (vopt-13314) Defaulting port 'range_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/port_group/port_unit.sv(19): (vopt-13314) Defaulting port 'list_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/port_group/rule_unit.sv(15): (vopt-13314) Defaulting port 'rule_pg_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/pcie/pdu_gen.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/pcie/pdu_data_mover.sv(13): (vopt-13314) Defaulting port 'pdumeta_gen_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/pcie/pdu_data_mover.sv(25): (vopt-13314) Defaulting port 'pdumeta_cpu_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/pkt_data_shift.sv(15): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv(6): (vopt-13314) Defaulting port 'in_data_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv(9): (vopt-13314) Defaulting port 'in_data_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1514,15 +1514,15 @@ Reading pref.tcl
 # ** Warning: ./src/top.sv(816): (vopt-2718) [TFMPC] - Missing connection for port 'overflow'.
 # ** Warning: ./src/top.sv(825): (vopt-2685) [TFMPC] - Too few port connections for 'my_fifo2'.  Expected 8, found 7.
 # ** Warning: ./src/top.sv(825): (vopt-2718) [TFMPC] - Missing connection for port 'overflow'.
-# ** Warning: ./src/top.sv(834): (vopt-2685) [TFMPC] - Too few port connections for 'my_dm2sm'.  Expected 15, found 13.
-# ** Warning: ./src/top.sv(834): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
-# ** Warning: ./src/top.sv(834): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
-# ** Warning: ./src/top.sv(911): (vopt-2685) [TFMPC] - Too few port connections for 'my_pg2nf'.  Expected 15, found 13.
-# ** Warning: ./src/top.sv(911): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
-# ** Warning: ./src/top.sv(911): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
-# ** Warning: ./src/top.sv(955): (vopt-2685) [TFMPC] - Too few port connections for 'my_by2pd'.  Expected 15, found 13.
-# ** Warning: ./src/top.sv(955): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
-# ** Warning: ./src/top.sv(955): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
+# ** Warning: ./src/top.sv(837): (vopt-2685) [TFMPC] - Too few port connections for 'my_dm2sm'.  Expected 15, found 13.
+# ** Warning: ./src/top.sv(837): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
+# ** Warning: ./src/top.sv(837): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
+# ** Warning: ./src/top.sv(917): (vopt-2685) [TFMPC] - Too few port connections for 'my_pg2nf'.  Expected 15, found 13.
+# ** Warning: ./src/top.sv(917): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
+# ** Warning: ./src/top.sv(917): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
+# ** Warning: ./src/top.sv(964): (vopt-2685) [TFMPC] - Too few port connections for 'my_by2pd'.  Expected 15, found 13.
+# ** Warning: ./src/top.sv(964): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
+# ** Warning: ./src/top.sv(964): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
 # ** Warning: ./src/pcie/pcie_top.sv(45): (vopt-13314) Defaulting port 'pcie_rb_wr_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/dram_wrapper.sv(34): (vopt-13314) Defaulting port 'ddr_wr_req_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/dram_wrapper.sv(39): (vopt-13314) Defaulting port 'ddr_rd_req_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1564,16 +1564,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(6): (vopt-13314) Defaulting port 'in_data_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(9): (vopt-13314) Defaulting port 'in_data_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vopt-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -2088,7 +2078,7 @@ Reading pref.tcl
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
 # ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=833.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=832.
 # //  ModelSim SE-64 2020.1 Jan 28 2020 Linux 3.10.0-1160.62.1.el7.x86_64
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -2102,6 +2092,7 @@ Reading pref.tcl
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
+# ** Warning: License feature 'msimhdlsim' will expire in 14 days.
 # Loading sv_std.std
 # Loading work.esram_wrapper_sv_unit(fast)
 # Loading work.dram_wrapper_sv_unit(fast)
@@ -2173,6 +2164,9 @@ Reading pref.tcl
 # Loading work.channel_fifo_service_sv_unit(fast)
 # Loading work.channel_fifo_service(fast)
 # Loading work.client_epig_shim(fast__3)
+# Loading work.unified_pkt_fifo(fast__2)
+# Loading work.general_fifo_tracker(fast)
+# Loading work.fifo_pkt_wrapper_infill(fast__1)
 # Loading work.fifo_wrapper_infill(fast__5)
 # Loading work.fast_pm_service_sv_unit(fast)
 # Loading work.fast_pm_service(fast)
@@ -2226,14 +2220,15 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__17)
 # Loading work.rom_2port(fast__16)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__18)
-# Loading work.unified_pkt_fifo(fast__2)
-# Loading work.fifo_pkt_wrapper_infill(fast__1)
 # Loading work.unified_pkt_fifo(fast__3)
+# Loading work.fifo_pkt_wrapper_infill(fast__2)
+# Loading work.unified_pkt_fifo(fast__4)
 # Loading work.dc_fifo_wrapper_infill_mlab(fast)
 # Loading work.fork_2_sv_unit(fast)
 # Loading work.fork_service(fast)
 # Loading work.channel_fifo_service(fast__1)
-# Loading work.unified_pkt_fifo(fast__4)
+# Loading work.unified_pkt_fifo(fast__5)
+# Loading work.general_fifo_tracker(fast__1)
 # Loading work.dc_fifo_wrapper_infill(fast__2)
 # Loading work.dc_fifo_wrapper_infill(fast__3)
 # Loading work.port_group_matcher_service_sv_unit(fast)
@@ -2296,8 +2291,8 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__34)
 # Loading work.dc_fifo_wrapper_infill(fast__4)
 # Loading work.fifo_wrapper_infill_mlab(fast__1)
-# Loading work.unified_pkt_fifo(fast__5)
-# Loading work.fifo_pkt_wrapper_infill(fast__2)
+# Loading work.unified_pkt_fifo(fast__6)
+# Loading work.fifo_pkt_wrapper_infill(fast__3)
 # Loading work.rom_2port(fast__31)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__35)
 # Loading work.bypass_nf_back_sv_unit(fast)
@@ -2309,8 +2304,8 @@ Reading pref.tcl
 # Loading work.dma_service(fast)
 # Loading work.fifo_wrapper_infill(fast__6)
 # Loading work.fifo_wrapper_infill(fast__7)
-# Loading work.unified_pkt_fifo(fast__6)
-# Loading work.fifo_pkt_wrapper_infill(fast__3)
+# Loading work.unified_pkt_fifo(fast__7)
+# Loading work.fifo_pkt_wrapper_infill(fast__4)
 # Loading work.bram_1port(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__36)
 # Loading work.fifo_wrapper_infill(fast__8)
@@ -2386,7 +2381,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(44).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO File: ./src/services/unified_pkt_fifo_service.sv Line: 50
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo0/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fifo3 File: ./src/top.sv Line: 798
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -2426,9 +2421,13 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -2438,7 +2437,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/bypass_pkt_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/in_pkt_cdc/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -2962,9 +2961,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo File: ./src/fast_pattern_matcher/backend.sv Line: 6683
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/back/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_fpm/sm_inst/sm_inst/string_matcher_inst/l1_dc_fifo_mlab_0_0/genblk2/genblk1/dc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill_mlab.v(32).
@@ -3998,9 +3997,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk2/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 235
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 379
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(32).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk2/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 235
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 379
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -4020,17 +4019,17 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo File: ./src/port_group/port_group.sv Line: 515
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo File: ./src/port_group/port_group.sv Line: 515
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg/port_group_inst/port_group_inst/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4042,9 +4041,13 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4060,9 +4063,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4072,9 +4075,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4084,9 +4087,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/bypass_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/in_pkt_cdc/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
@@ -4100,7 +4103,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (4) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo File: ./src/common_usr/rule_depacker_512_128.sv Line: 114
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/rule_depacker_inst/rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/in_fifo_0/genblk2/genblk1/sc_pkt_fifo_mlab File: ./src/common_usr/unified_fifo.sv Line: 169
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill_mlab.v(22).
@@ -4134,15 +4137,15 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(42).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo File: ./src/non_fast_pattern_matcher/nf_rule_reduction.sv Line: 523
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/rule_reduction_inst/output_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'in_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(34).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo File: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv Line: 172
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'out_empty'. The port definition is at: ./src/common_usr/unified_pkt_fifo.sv(40).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo File: ./src/non_fast_pattern_matcher/nf_fp_matcher.sv Line: 172
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/int_fp_rule_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/non_fast_pattern_inst/non_fast_pattern_inst/fp_matcher_inst/rule_packer_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf_fork/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4152,9 +4155,9 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4176,13 +4179,17 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/in_rule_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk3/fifo_tracker/genblk1/genblk1/pkt_entry_table File: ./src/common_usr/unified_pkt_fifo.sv Line: 411
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (1) for port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma File: ./src/top.sv Line: 970
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma File: ./src/top.sv Line: 979
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/in_pkt_c/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (252) does not match connection size (444) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4196,7 +4203,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdumeta_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdu_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 302
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdu_data_mover_inst/pdu_gen_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/out_fifo0 File: ./src/tb.sv Line: 595
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
@@ -4224,6 +4231,7 @@ Reading pref.tcl
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
+# open success
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Initializing memory contents for tb.partition_1.my_fpm.sm_inst.sm_inst.string_matcher_inst.front.filter_inst.match_table_0.altera_syncram_component.initialize_mem_contents with                                                                                                                                                                                                                                ./src/memory_init/match_table.ver
@@ -5077,6 +5085,7 @@ Reading pref.tcl
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Initializing memory contents for tb.partition_1.my_pg.port_group_inst.port_group_inst.rule2pg_table_6_7.altera_syncram_component.initialize_mem_contents with                                                                                                                                                                                                                                  ./src/memory_init/rule_2_pg.ver
+# open success
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Initializing memory contents for tb.partition_1.my_nf.non_fast_pattern_inst.non_fast_pattern_inst.sm_inst.shiftor_inst.match_table_0.altera_syncram_component.initialize_mem_contents with                                                                                                                                                                                                                                   ./src/memory_init/shift_or.ver
@@ -5296,6 +5305,7 @@ Reading pref.tcl
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Initializing memory contents for tb.partition_1.my_nf.non_fast_pattern_inst.non_fast_pattern_inst.fp_matcher_inst.fp_rom_0.altera_syncram_component.initialize_mem_contents with                                                                                                                                                                                                                                    ./src/memory_init/rule_fp.ver
+# open success
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Finish LL emptylist init
@@ -5361,5 +5371,5 @@ Reading pref.tcl
 # Done!
 # ** Note: $finish    : ./src/tb.sv(467)
 #    Time: 131750 ns  Iteration: 1  Instance: /tb
-# End time: 17:25:49 on Jun 16,2022, Elapsed time: 0:00:17
-# Errors: 0, Warnings: 1780
+# End time: 18:33:57 on Jun 17,2022, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1785

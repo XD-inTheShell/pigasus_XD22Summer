@@ -831,7 +831,10 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
         .in(fifo2_in_direct),
         .out(ethernet_out4_direct)
     );
-    channel_fifo_service#(.DUAL_CLOCK(0)) my_dm2sm (
+    channel_fifo_service#(
+        .DUAL_CLOCK(0),
+        .REC_FIFO(1)
+        ) my_dm2sm (
         .Clk_i(clk),
         .Rst_n_i(rst_n),
         .in_pkt_fill_level(in_pkt_fill_level_dm2sm),
@@ -908,7 +911,10 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
         .out_meta(pg2nf_in_meta_direct),
         .out_usr(pg2nf_in_usr_direct)
     );
-    channel_fifo_service#(.DUAL_CLOCK(0)) my_pg2nf (
+    channel_fifo_service#(
+        .DUAL_CLOCK(0),
+        .REC_FIFO(1)
+        ) my_pg2nf (
         .Clk_i(clk_pcie),
         .Rst_n_i(rst_n_pcie),
         .in_pkt_fill_level(in_pkt_fill_level_pg2nf),
@@ -952,7 +958,10 @@ assign pdumeta_cnt = pdumeta_cpu_csr_readdata[9:0];
         .out_meta(by2pd_in_meta_direct),
         .out_usr(by2pd_in_usr_direct)
     );
-    channel_fifo_service#(.DUAL_CLOCK(0)) my_by2pd (
+    channel_fifo_service#(
+        .DUAL_CLOCK(0),
+        .REC_FIFO(1)
+        ) my_by2pd (
         .Clk_i(clk_pcie),
         .Rst_n_i(rst_n_pcie),
         .in_pkt_fill_level(in_pkt_fill_level_by2pd),

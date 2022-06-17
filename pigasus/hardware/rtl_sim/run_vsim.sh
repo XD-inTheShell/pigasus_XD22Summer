@@ -2,7 +2,7 @@
 rm -r work
 rm -r -f libraries/work
 rm -f vsim.wlf
-
+mkdir fifo_out
 altera_ver="$SIM_LIB_PATH/altera_ver"
 lpm_ver="$SIM_LIB_PATH/lpm_ver"
 sgate_ver="$SIM_LIB_PATH/sgate_ver"
