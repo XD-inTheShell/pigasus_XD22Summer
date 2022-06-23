@@ -73,7 +73,8 @@ bypass_front_service bypass_nf_front_inst(
 
 ////////////////////// Bypass channel //////////////////////////////////
 channel_fifo_service #(
-    .DUAL_CLOCK (0)
+    .DUAL_CLOCK (0),
+    .REC_FIFO (1)
 ) bypass_FIFO(
     .Clk_i(Clk), 
     .Rst_n_i(Rst_n),
@@ -94,7 +95,8 @@ channel_fifo_service #(
 
 ////////////////////// Bypass to Non-fast pattern channel //////////////////////////////////
 channel_fifo_service #(
-    .DUAL_CLOCK (0)
+    .DUAL_CLOCK (0),
+    .REC_FIFO (1)
 ) bypassfront2nf_FIFO(
     .Clk_i(Clk), 
     .Rst_n_i(Rst_n),
@@ -145,7 +147,8 @@ fork_service nf_fork (
 );
 
 channel_fifo_service #(
-    .DUAL_CLOCK (0)
+    .DUAL_CLOCK (0),
+    .REC_FIFO (1)
 ) nf2bypassback_FIFO(
     .Clk_i(Clk), 
     .Rst_n_i(Rst_n),
