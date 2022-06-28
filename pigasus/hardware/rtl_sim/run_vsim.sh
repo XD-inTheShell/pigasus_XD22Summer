@@ -2,6 +2,7 @@
 rm -r work
 rm -r -f libraries/work
 rm -f vsim.wlf
+rm -r fifo_out
 mkdir fifo_out
 altera_ver="$SIM_LIB_PATH/altera_ver"
 lpm_ver="$SIM_LIB_PATH/lpm_ver"
@@ -52,6 +53,7 @@ vlog +define+SIM ./src/reassembly/*.sv -sv
 vlog +define+SIM ./src/services/*.sv -sv
 
 vlog +define+SIM +acc ./src/common_usr/unified_pkt_fifo.sv
+vlog +define+SIM +acc ./src/common_usr/unified_fifo.sv
 vlog +define+SIM +acc ./src/common/dc_fifo_wrapper_infill.v
 
 

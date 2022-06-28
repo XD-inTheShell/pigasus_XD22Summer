@@ -1,6 +1,6 @@
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:36 on Jun 23,2022
-vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE_NB_LINES=2200" ./src/stats_reg.sv ./src/stats.sv ./src/struct_s.sv ./src/tb.sv ./src/top.sv -sv 
+Start time: 10:42:32 on Jun 28,2022
+vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE_NB_LINES=24000" ./src/stats_reg.sv ./src/stats.sv ./src/struct_s.sv ./src/tb.sv ./src/top.sv -sv 
 -- Compiling package stats_reg_sv_unit
 -- Compiling package stats_sv_unit
 -- Compiling module stats
@@ -12,10 +12,10 @@ vlog "+define+SIM" "+define+PKT_FILE="./input_gen/output.pkt"" "+define+PKT_FILE
 
 Top level modules:
 	tb
-End time: 02:19:36 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:32 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:36 on Jun 23,2022
+Start time: 10:42:32 on Jun 28,2022
 vlog "+define+SIM" ./src/common/dsp.sv ./src/common/singledsp.sv ./src/common/st_adapter_512_128.sv ./src/common/st_adapter_512_256.sv ./src/common/st_adapter_512_64.sv ./src/common/st_multiplexer_pkt_3.sv ./src/common/st_multiplexer_pkt.sv ./src/common/st_multiplexer.sv -sv 
 -- Compiling module dsp
 -- Compiling module singledsp
@@ -38,10 +38,10 @@ Top level modules:
 	st_multiplexer_pkt_3
 	st_multiplexer_pkt
 	st_multiplexer
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:01
+End time: 10:42:32 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:32 on Jun 28,2022
 vlog "+define+SIM" ./src/common/altera_dcfifo_synchronizer_bundle.v ./src/common/altera_std_synchronizer_nocut.v ./src/common/bram_1port.v ./src/common/bram_dc_diff_width.v ./src/common/bram_simple2port.v ./src/common/bram_true2port.v ./src/common/dc_fifo_core_infill_mlab.v ./src/common/dc_fifo_core_infill.v ./src/common/dc_fifo_core_mlab.v ./src/common/dc_fifo_core.v ./src/common/dc_fifo_wrapper_infill_mlab.v ./src/common/dc_fifo_wrapper_infill.v ./src/common/dc_fifo_wrapper_mlab.v ./src/common/dc_fifo_wrapper.v ./src/common/fifo_core_infill_mlab.v ./src/common/fifo_core_infill.v ./src/common/fifo_core_mlab.v ./src/common/fifo_core.v ./src/common/fifo_pkt_core_infill_mlab.v ./src/common/fifo_pkt_core_infill.v ./src/common/fifo_pkt_core.v ./src/common/fifo_pkt_wrapper_infill_mlab.v ./src/common/fifo_pkt_wrapper_infill.v ./src/common/fifo_pkt_wrapper.v ./src/common/fifo_wrapper_infill_mlab.v ./src/common/fifo_wrapper_infill.v ./src/common/fifo_wrapper_mlab.v ./src/common/fifo_wrapper.v ./src/common/rom_1port_mlab.v ./src/common/rom_2port_noreg.v ./src/common/rom_2port.v 
 -- Compiling module altera_dcfifo_synchronizer_bundle
 -- Compiling module altera_std_synchronizer_nocut
@@ -94,10 +94,10 @@ Top level modules:
 	rom_1port_mlab
 	rom_2port_noreg
 	rom_2port
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/common_usr/acc_hash.sv ./src/common_usr/arb_2_wrapper_infill.sv ./src/common_usr/arb_2_wrapper.sv ./src/common_usr/bypass_nf_back.sv ./src/common_usr/bypass_nf_front_rr.sv ./src/common_usr/bypass_nf_front.sv ./src/common_usr/channel_fifo.sv ./src/common_usr/fork_2.sv ./src/common_usr/hashtable.sv ./src/common_usr/hyper_pipe_rst.sv ./src/common_usr/hyper_pipe.sv ./src/common_usr/interface_debugger.sv ./src/common_usr/mul_hash.sv ./src/common_usr/pkt_almost_full_nogap.sv ./src/common_usr/pkt_almost_full.sv ./src/common_usr/pkt_checker.sv ./src/common_usr/pkt_data_shift.sv ./src/common_usr/rr_arbiter_4.sv ./src/common_usr/rr_arbiter_pkt.sv ./src/common_usr/rr_arbiter.sv ./src/common_usr/rule_depacker_512_128.sv ./src/common_usr/rule_depacker_512_256.sv ./src/common_usr/rule_packer_128_512.sv ./src/common_usr/rule_packer_256_512.sv ./src/common_usr/rule_packer_32_512.sv ./src/common_usr/service_converter.sv ./src/common_usr/stats_cnt.sv ./src/common_usr/traffic_manager.sv ./src/common_usr/unified_fifo.sv ./src/common_usr/unified_pkt_fifo.sv -sv 
 -- Compiling module acc_hash
 -- Compiling module arb_2_wrapper_infill
@@ -203,10 +203,10 @@ Top level modules:
 	stats_cnt_rule
 	traffic_manager
 	counter
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 18
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/common_usr/FIFO2.v 
 -- Compiling module FIFO2
 -- Compiling module FIFO2_Reg
@@ -214,10 +214,10 @@ vlog "+define+SIM" ./src/common_usr/FIFO2.v
 
 Top level modules:
 	FIFO2
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/buffer/data_mover.sv ./src/buffer/dram_wrapper.sv ./src/buffer/esram_wrapper.sv -sv 
 ** Warning: ./src/buffer/data_mover.sv(8): (vlog-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/buffer/data_mover.sv(31): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -240,10 +240,10 @@ Top level modules:
 	data_mover
 	dram_wrapper
 	esram_wrapper
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matcher/first_filter.sv ./src/fast_pattern_matcher/frontend.sv ./src/fast_pattern_matcher/hashtable_top.sv ./src/fast_pattern_matcher/reduction_2t1.sv ./src/fast_pattern_matcher/string_matcher.sv ./src/fast_pattern_matcher/string_matcher_wrapper.sv -sv 
 ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vlog-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/fast_pattern_matcher/backend.sv(9): (vlog-13314) Defaulting port 'in_data_0_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -780,10 +780,10 @@ vlog "+define+SIM" ./src/fast_pattern_matcher/backend.sv ./src/fast_pattern_matc
 
 Top level modules:
 	string_matcher_wrapper
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 518
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/stream_mux.sv ./src/mux/usr_gen.sv -sv 
 ** Warning: ./src/mux/meta_gen.sv(11): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package meta_gen_sv_unit
@@ -801,10 +801,10 @@ vlog "+define+SIM" ./src/mux/meta_gen.sv ./src/mux/stream_demux.sv ./src/mux/str
 Top level modules:
 	stream_demux
 	stream_mux
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 4
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_pattern_matcher/nf_fp_matcher.sv ./src/non_fast_pattern_matcher/nf_reduction_2t1.sv ./src/non_fast_pattern_matcher/nf_rule_reduction.sv ./src/non_fast_pattern_matcher/non_fast_pattern_ht.sv ./src/non_fast_pattern_matcher/non_fast_pattern_shiftor.sv ./src/non_fast_pattern_matcher/non_fast_pattern_sm.sv ./src/non_fast_pattern_matcher/non_fast_pattern_wrapper.sv -sv 
 -- Compiling package cal_fp_sv_unit
 -- Compiling module cal_fp
@@ -831,10 +831,10 @@ vlog "+define+SIM" ./src/non_fast_pattern_matcher/cal_fp.sv ./src/non_fast_patte
 
 Top level modules:
 	non_fast_pattern_wrapper
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 6
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv 
 -- Compiling package input_comp_sv_unit
 -- Compiling module input_comp
@@ -846,10 +846,10 @@ vlog "+define+SIM" ./src/parser/input_comp.sv ./src/parser/parser.sv -sv
 Top level modules:
 	input_comp
 	parser
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 2
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/pcie/cpu2fpga_pcie.sv ./src/pcie/fpga2cpu_pcie.sv ./src/pcie/pcie_top.sv ./src/pcie/pdu_data_mover.sv ./src/pcie/pdu_gen.sv ./src/pcie/ring_buffer.sv -sv 
 -- Compiling package cpu2fpga_pcie_sv_unit
 -- Compiling module cpu2fpga_pcie
@@ -882,10 +882,10 @@ Top level modules:
 	pcie_top
 	pdu_data_mover
 	pdu_gen
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 12
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv ./src/port_group/rule_unit.sv -sv 
 ** Warning: ./src/port_group/port_group.sv(20): (vlog-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Compiling package port_group_sv_unit
@@ -906,10 +906,10 @@ vlog "+define+SIM" ./src/port_group/port_group.sv ./src/port_group/port_unit.sv 
 
 Top level modules:
 	port_group
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 10
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_table.sv ./src/reassembly/flow_table_wrapper.sv ./src/reassembly/hash_func.sv ./src/reassembly/linked_list.sv ./src/reassembly/para_Q.sv -sv 
 ** Warning: ./src/reassembly/flow_reassembly.sv(6): (vlog-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: ./src/reassembly/flow_reassembly.sv(9): (vlog-13314) Defaulting port 'fce_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -956,10 +956,10 @@ vlog "+define+SIM" ./src/reassembly/flow_reassembly.sv ./src/reassembly/flow_tab
 
 Top level modules:
 	flow_table_wrapper
-End time: 02:19:37 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:33 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 30
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:37 on Jun 23,2022
+Start time: 10:42:33 on Jun 28,2022
 vlog "+define+SIM" ./src/services/arb_2_af_service.sv ./src/services/arb_2_service.sv ./src/services/bypass_back_service.sv ./src/services/bypass_front_service.sv ./src/services/channel_fifo_service.sv ./src/services/data_mover_service.sv ./src/services/dma_service.sv ./src/services/ethernet_service_multi_out.sv ./src/services/ethernet_service.sv ./src/services/fast_pm_service.sv ./src/services/flow_table_client.sv ./src/services/fork_service.sv ./src/services/identity.sv ./src/services/input_comp_client.sv ./src/services/mkReadAvalon_wrapper.sv ./src/services/mkWriteAvalon_wrapper.sv ./src/services/non_fast_pattern_client.sv ./src/services/non_fast_pm_service_no_bypass.sv ./src/services/non_fast_pm_service.sv ./src/services/parser_client.sv ./src/services/pdu_data_mover_service.sv ./src/services/pdu_gen_client.sv ./src/services/pkt_mux_service.sv ./src/services/port_group_client.sv ./src/services/port_group_matcher_service.sv ./src/services/reassembler_service.sv ./src/services/stream_demux_service.sv ./src/services/stream_mux_service.sv ./src/services/string_matcher_client.sv ./src/services/unified_fifo_service.sv ./src/services/unified_pkt_fifo_service.sv -sv 
 -- Compiling interface server
 -- Compiling interface channel_if
@@ -1216,10 +1216,10 @@ Top level modules:
 	stream_demux_service
 	stream_mux_service
 	unified_pkt_fifo_service
-End time: 02:19:38 on Jun 23,2022, Elapsed time: 0:00:01
+End time: 10:42:34 on Jun 28,2022, Elapsed time: 0:00:01
 Errors: 0, Warnings: 62
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:38 on Jun 23,2022
+Start time: 10:42:34 on Jun 28,2022
 vlog "+define+SIM" "+acc" ./src/common_usr/unified_pkt_fifo.sv 
 -- Compiling module unified_pkt_fifo
 -- Compiling module general_fifo_tracker
@@ -1228,23 +1228,32 @@ vlog "+define+SIM" "+acc" ./src/common_usr/unified_pkt_fifo.sv
 Top level modules:
 	unified_pkt_fifo
 	counter
-End time: 02:19:38 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:34 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
-Start time: 02:19:38 on Jun 23,2022
+Start time: 10:42:34 on Jun 28,2022
+vlog "+define+SIM" "+acc" ./src/common_usr/unified_fifo.sv 
+-- Compiling module unified_fifo
+
+Top level modules:
+	unified_fifo
+End time: 10:42:34 on Jun 28,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+Start time: 10:42:34 on Jun 28,2022
 vlog "+define+SIM" "+acc" ./src/common/dc_fifo_wrapper_infill.v 
 -- Compiling module dc_fifo_wrapper_infill
 
 Top level modules:
 	dc_fifo_wrapper_infill
-End time: 02:19:38 on Jun 23,2022, Elapsed time: 0:00:00
+End time: 10:42:34 on Jun 28,2022, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 Reading pref.tcl
 
 # 2020.1
 
 # vsim -L /home/xiyingd/simlib/verilog_libs/altera_mf_ver -L /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver -L /home/xiyingd/simlib/verilog_libs/altera_ver -L /home/xiyingd/simlib/verilog_libs/lpm_ver -L /home/xiyingd/simlib/verilog_libs/sgate_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ver -L /home/xiyingd/simlib/verilog_libs/fourteennm_ct1_ver -c -do "run -all" tb 
-# Start time: 02:19:38 on Jun 23,2022
+# Start time: 10:42:34 on Jun 28,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
@@ -1259,13 +1268,10 @@ Reading pref.tcl
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/services/dma_service.sv(183): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/pcie/pdu_data_mover.sv(54).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
-# ** Warning: ./src/services/dma_service.sv(167): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 # ** Warning: ./src/top.sv(979): (vopt-2241) Connection width does not match width of port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
-# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
-# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
 # ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_pkt_fifo.sv(157): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_pkt_fifo.sv(411): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
@@ -1283,8 +1289,6 @@ Reading pref.tcl
 # ** Warning: ./src/port_group/port_group.sv(642): (vopt-2241) Connection width does not match width of port 'out_meta_channel'. The port definition is at: ./src/common_usr/traffic_manager.sv(46).
 # ** Warning: ./src/port_group/port_group.sv(537): (vopt-2241) Connection width does not match width of port 'in_rule_empty'. The port definition is at: ./src/common_usr/rule_packer_128_512.sv(8).
 # ** Warning: ./src/port_group/port_group.sv(310): (vopt-2241) Connection width does not match width of port 'out_rule_empty'. The port definition is at: ./src/common_usr/rule_depacker_512_128.sv(16).
-# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
-# ** Warning: ./src/common_usr/channel_fifo.sv(146): (vopt-2241) Connection width does not match width of port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'in_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(24).
 # ** Warning: ./src/common/dc_fifo_wrapper_infill.v(53): (vopt-2241) Connection width does not match width of port 'out_empty'. The port definition is at: ./src/common/dc_fifo_core_infill.v(34).
 # ** Warning: ./src/fast_pattern_matcher/string_matcher_wrapper.sv(455): (vopt-2241) Connection width does not match width of port 'out_meta_channel'. The port definition is at: ./src/common_usr/interface_debugger.sv(45).
@@ -1310,16 +1314,26 @@ Reading pref.tcl
 # ** Warning: ./src/top.sv(798): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 # ** Warning: ./src/top.sv(791): (vopt-2241) Connection width does not match width of port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
-# ** Warning: ./src/services/unified_fifo_service.sv(52): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
 # ** Warning: ./src/common_usr/service_converter.sv(65): (vopt-2241) Connection width does not match width of port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/reassembly/linked_list.sv(354): (vopt-2241) Connection width does not match width of port 'data'. The port definition is at: ./src/common/bram_simple2port.v(20).
 # ** Warning: ./src/reassembly/linked_list.sv(354): (vopt-2241) Connection width does not match width of port 'q'. The port definition is at: ./src/common/bram_simple2port.v(25).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 # ** Warning: ./src/common_usr/unified_fifo.sv(147): (vopt-2241) Connection width does not match width of port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
-# ** Warning: ./src/services/unified_fifo_service.sv(52): (vopt-2241) Connection width does not match width of port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_wr_req_data'. The port definition is at: ./src/top.sv(42).
 # ** Warning: ./src/tb.sv(528): (vopt-2241) Connection width does not match width of port 'ddr_rd_req_data'. The port definition is at: ./src/top.sv(45).
+# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2685) [TFMPC] - Too few port connections for 'sm_fork'.  Expected 11, found 8.
+# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_out_pkt0_s'.
+# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt_s'.
+# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
+# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2685) [TFMPC] - Too few port connections for 'pg_fork'.  Expected 11, found 8.
+# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_out_pkt0_s'.
+# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt_s'.
+# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
+# ** Warning: ./src/port_group/port_unit.sv(13): (vopt-13314) Defaulting port 'pg_entry_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/port_unit.sv(17): (vopt-13314) Defaulting port 'range_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/port_unit.sv(19): (vopt-13314) Defaulting port 'list_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/rule_unit.sv(15): (vopt-13314) Defaulting port 'rule_pg_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(8): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/buffer/data_mover.sv(31): (vopt-13314) Defaulting port 'meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/services/data_mover_service.sv(21): (vopt-13314) Defaulting port 'pkt_buffer_readdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1341,29 +1355,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/services/data_mover_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
-# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/common_usr/bypass_nf_back.sv(17): (vopt-13314) Defaulting port 'bypass_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/bypass_nf_back.sv(41): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/common_usr/bypass_nf_front.sv(18): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1388,6 +1379,29 @@ Reading pref.tcl
 # ** Warning: ./src/services/non_fast_pm_service.sv(152): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
 # ** Warning: ./src/services/non_fast_pm_service.sv(152): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
 # ** Warning: ./src/services/non_fast_pm_service.sv(152): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
+# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/common_usr/channel_fifo.sv(26): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2685) [TFMPC] - Too few port connections for 'in_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(163): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2685) [TFMPC] - Too few port connections for 'in_pkt_inst'.  Expected 9, found 8.
+# ** Warning: ./src/services/channel_fifo_service.sv(171): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/services/pkt_mux_service.sv(158): (vopt-2685) [TFMPC] - Too few port connections for 'multiplexer_pkt1'.  Expected 30, found 27.
 # ** Warning: ./src/services/pkt_mux_service.sv(158): (vopt-2718) [TFMPC] - Missing connection for port 'in2_channel'.
 # ** Warning: ./src/services/pkt_mux_service.sv(158): (vopt-2718) [TFMPC] - Missing connection for port 'in1_channel'.
@@ -1414,26 +1428,6 @@ Reading pref.tcl
 # ** Warning: ./src/services/reassembler_service.sv(177): (vopt-2718) [TFMPC] - Missing connection for port 'fill_level'.
 # ** Warning: ./src/services/reassembler_service.sv(177): (vopt-2718) [TFMPC] - Missing connection for port 'Rst_n_o'.
 # ** Warning: ./src/services/reassembler_service.sv(177): (vopt-2718) [TFMPC] - Missing connection for port 'Clk_o'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2685) [TFMPC] - Too few port connections for 'in_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2685) [TFMPC] - Too few port connections for 'out_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2685) [TFMPC] - Too few port connections for 'in_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2685) [TFMPC] - Too few port connections for 'out_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
 # ** Warning: ./src/services/input_comp_client.sv(83): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
@@ -1445,28 +1439,26 @@ Reading pref.tcl
 # ** Warning: ./src/services/fork_service.sv(86): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/services/fork_service.sv(96): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt1_inst'.  Expected 9, found 8.
 # ** Warning: ./src/services/fork_service.sv(96): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
-# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2685) [TFMPC] - Too few port connections for 'sm_fork'.  Expected 11, found 8.
-# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_out_pkt0_s'.
-# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt_s'.
-# ** Warning: ./src/services/fast_pm_service.sv(54): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
-# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2685) [TFMPC] - Too few port connections for 'pg_fork'.  Expected 11, found 8.
-# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_out_pkt0_s'.
-# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt_s'.
-# ** Warning: ./src/services/port_group_matcher_service.sv(48): (vopt-2718) [TFMPC] - Missing connection for port 'stats_in_pkt'.
-# ** Warning: ./src/port_group/port_unit.sv(13): (vopt-13314) Defaulting port 'pg_entry_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/port_unit.sv(17): (vopt-13314) Defaulting port 'range_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/port_unit.sv(19): (vopt-13314) Defaulting port 'list_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/rule_unit.sv(15): (vopt-13314) Defaulting port 'rule_pg_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
-# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
-# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2685) [TFMPC] - Too few port connections for 'in_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2685) [TFMPC] - Too few port connections for 'out_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2685) [TFMPC] - Too few port connections for 'in_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(68): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2685) [TFMPC] - Too few port connections for 'out_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/unified_fifo_service.sv(103): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
 # ** Warning: ./src/pcie/pdu_gen.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/pcie/pdu_data_mover.sv(13): (vopt-13314) Defaulting port 'pdumeta_gen_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/pcie/pdu_data_mover.sv(25): (vopt-13314) Defaulting port 'pdumeta_cpu_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1525,7 +1517,6 @@ Reading pref.tcl
 # ** Warning: ./src/buffer/dram_wrapper.sv(39): (vopt-13314) Defaulting port 'ddr_rd_req_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/tb.sv(474): (vopt-2685) [TFMPC] - Too few port connections for 'stats'.  Expected 28, found 27.
 # ** Warning: ./src/tb.sv(474): (vopt-2718) [TFMPC] - Missing connection for port 'o_tx_data'.
-# ** Warning: ./src/buffer/dram_wrapper.sv(411): (vopt-2958) Implicit wire 'emif_rst' does not have any driver.
 # ** Warning: ./src/reassembly/hash_func.sv(10): (vopt-13314) Defaulting port 'tuple_in' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/reassembly/para_Q.sv(7): (vopt-13314) Defaulting port 'addr_a' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/reassembly/para_Q.sv(8): (vopt-13314) Defaulting port 'data_a' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1561,6 +1552,16 @@ Reading pref.tcl
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
 # ** Warning: ./src/services/flow_table_client.sv(112): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/common_usr/traffic_manager.sv(19): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/port_group/port_group.sv(20): (vopt-13314) Defaulting port 'in_meta_data' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2685) [TFMPC] - Too few port connections for 'out_meta_inst'.  Expected 9, found 5.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'eop'.
+# ** Warning: ./src/services/port_group_client.sv(125): (vopt-2718) [TFMPC] - Missing connection for port 'sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2685) [TFMPC] - Too few port connections for 'out_pkt_inst'.  Expected 9, found 7.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_pkt_sop'.
+# ** Warning: ./src/services/port_group_client.sv(132): (vopt-2718) [TFMPC] - Missing connection for port 'stats_flit'.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(6): (vopt-13314) Defaulting port 'in_data_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/reduction_2t1.sv(9): (vopt-13314) Defaulting port 'in_data_1' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(6): (vopt-13314) Defaulting port 'in_data_0_0' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -1819,263 +1820,7 @@ Reading pref.tcl
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(765): (vopt-13314) Defaulting port 'in_data_7_29' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(768): (vopt-13314) Defaulting port 'in_data_7_30' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 # ** Warning: ./src/fast_pattern_matcher/backend.sv(771): (vopt-13314) Defaulting port 'in_data_7_31' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Warning: ./src/common_usr/unified_fifo.sv(129): (vopt-2958) Implicit wire 'in_empty' does not have any driver.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=829.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=565.
 # //  ModelSim SE-64 2020.1 Jan 28 2020 Linux 3.10.0-1160.62.1.el7.x86_64
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -2089,7 +1834,6 @@ Reading pref.tcl
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# ** Warning: License feature 'msimhdlsim' will expire in 8 days.
 # Loading sv_std.std
 # Loading work.esram_wrapper_sv_unit(fast)
 # Loading work.dram_wrapper_sv_unit(fast)
@@ -2122,6 +1866,7 @@ Reading pref.tcl
 # Loading work.client_epig_shim(fast__2)
 # Loading work.FIFO2(fast__3)
 # Loading work.unified_fifo_service(fast)
+# Loading work.unified_fifo(fast)
 # Loading work.fifo_wrapper_infill(fast)
 # Loading work.linked_list_sv_unit(fast)
 # Loading work.flow_reassembly_sv_unit(fast)
@@ -2134,12 +1879,16 @@ Reading pref.tcl
 # Loading work.bram_true2port(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.ALTERA_LNSIM_MEMORY_INITIALIZATION(fast)
+# Loading work.unified_fifo(fast__1)
 # Loading work.fifo_wrapper_infill(fast__1)
+# Loading work.unified_fifo(fast__2)
 # Loading work.fifo_wrapper_infill(fast__2)
 # Loading work.bram_simple2port(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__1)
+# Loading work.unified_fifo(fast__3)
 # Loading work.fifo_wrapper_infill(fast__3)
 # Loading work.arb_2_af_service(fast)
+# Loading work.unified_fifo(fast__4)
 # Loading work.arb_2_service(fast)
 # Loading work.data_mover_sv_unit(fast)
 # Loading work.data_mover_service_sv_unit(fast)
@@ -2147,6 +1896,7 @@ Reading pref.tcl
 # Loading work.server_epig_shim(fast__3)
 # Loading work.server_epig_shim(fast__4)
 # Loading work.unified_fifo_service(fast__1)
+# Loading work.unified_fifo(fast__5)
 # Loading work.fifo_wrapper_infill(fast__4)
 # Loading work.unified_pkt_fifo_service(fast)
 # Loading work.unified_pkt_fifo(fast)
@@ -2164,6 +1914,7 @@ Reading pref.tcl
 # Loading work.unified_pkt_fifo(fast__2)
 # Loading work.general_fifo_tracker(fast)
 # Loading work.fifo_pkt_wrapper_infill(fast__1)
+# Loading work.unified_fifo(fast__6)
 # Loading work.fifo_wrapper_infill(fast__5)
 # Loading work.fast_pm_service_sv_unit(fast)
 # Loading work.fast_pm_service(fast)
@@ -2173,6 +1924,7 @@ Reading pref.tcl
 # Loading work.string_matcher_wrapper_sv_unit(fast)
 # Loading work.string_matcher_client_sv_unit(fast)
 # Loading work.string_matcher_client(fast)
+# Loading work.unified_fifo(fast__7)
 # Loading work.dc_fifo_wrapper_infill(fast__1)
 # Loading work.rule_packer_128_512_sv_unit(fast)
 # Loading work.reduction_2t1_sv_unit(fast)
@@ -2200,6 +1952,7 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__9)
 # Loading work.rom_2port(fast__8)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__10)
+# Loading work.unified_fifo(fast__8)
 # Loading work.fifo_wrapper_infill_mlab(fast)
 # Loading work.rom_2port(fast__9)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__11)
@@ -2220,6 +1973,7 @@ Reading pref.tcl
 # Loading work.unified_pkt_fifo(fast__3)
 # Loading work.fifo_pkt_wrapper_infill(fast__2)
 # Loading work.unified_pkt_fifo(fast__4)
+# Loading work.unified_fifo(fast__9)
 # Loading work.dc_fifo_wrapper_infill_mlab(fast)
 # Loading work.fork_2_sv_unit(fast)
 # Loading work.fork_service(fast)
@@ -2227,6 +1981,7 @@ Reading pref.tcl
 # Loading work.unified_pkt_fifo(fast__5)
 # Loading work.general_fifo_tracker(fast__1)
 # Loading work.dc_fifo_wrapper_infill(fast__2)
+# Loading work.unified_fifo(fast__10)
 # Loading work.dc_fifo_wrapper_infill(fast__3)
 # Loading work.port_group_matcher_service_sv_unit(fast)
 # Loading work.port_group_matcher_service(fast)
@@ -2286,7 +2041,9 @@ Reading pref.tcl
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__33)
 # Loading work.rom_2port(fast__30)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__34)
+# Loading work.unified_fifo(fast__11)
 # Loading work.dc_fifo_wrapper_infill(fast__4)
+# Loading work.unified_fifo(fast__12)
 # Loading work.fifo_wrapper_infill_mlab(fast__1)
 # Loading work.unified_pkt_fifo(fast__6)
 # Loading work.fifo_pkt_wrapper_infill(fast__3)
@@ -2299,15 +2056,21 @@ Reading pref.tcl
 # Loading work.pdu_gen_sv_unit(fast)
 # Loading work.dma_service_sv_unit(fast)
 # Loading work.dma_service(fast)
+# Loading work.unified_fifo(fast__13)
 # Loading work.fifo_wrapper_infill(fast__6)
+# Loading work.unified_fifo(fast__14)
 # Loading work.fifo_wrapper_infill(fast__7)
 # Loading work.unified_pkt_fifo(fast__7)
 # Loading work.fifo_pkt_wrapper_infill(fast__4)
 # Loading work.bram_1port(fast)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__36)
+# Loading work.unified_fifo(fast__15)
 # Loading work.fifo_wrapper_infill(fast__8)
+# Loading work.unified_fifo(fast__16)
 # Loading work.fifo_wrapper_infill(fast__9)
+# Loading work.unified_fifo(fast__17)
 # Loading work.dc_fifo_wrapper_infill(fast__5)
+# Loading work.unified_fifo(fast__18)
 # Loading work.dc_fifo_wrapper_infill(fast__6)
 # Loading work.bram_simple2port(fast__1)
 # Loading /home/xiyingd/simlib/verilog_libs/altera_lnsim_ver.altera_syncram(fast__37)
@@ -2331,6 +2094,8 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/my_parser/in_meta_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (252) does not match connection size (444) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/parser_out_fifo/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/parser_out_fifo/my_FIFO File: ./src/services/unified_fifo_service.sv Line: 52
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/parser_out_fifo/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (252) does not match connection size (444) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -2369,6 +2134,8 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/dm_inst/meta_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (202) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/pktbuf_emptylist/in_cs/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'overflow'. The port definition is at: ./src/common_usr/unified_fifo.sv(34).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/pktbuf_emptylist/my_FIFO File: ./src/services/unified_fifo_service.sv Line: 52
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_r/pktbuf_emptylist/my_FIFO/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'fill_level'. The port definition is at: ./src/services/unified_pkt_fifo_service.sv(21).
@@ -2425,6 +2192,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dm2sm/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4001,6 +3772,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/pkt_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/usr_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'in_csr_address'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_sm2pg/FIFO/meta_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 84
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(32).
@@ -4045,6 +3820,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_pg2nf/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4067,6 +3846,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypass_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4083,6 +3866,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/bypassfront2nf_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4167,6 +3954,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_nf/nf2bypassback_FIFO/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (704) for port 'D_OUT'. The port definition is at: ./src/common_usr/FIFO2.v(56).
@@ -4195,6 +3986,10 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/pkt_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_pkt_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/usr_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_pkt_fifo.sv Line: 157
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'in_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (252) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/meta_fifo File: ./src/common_usr/channel_fifo.sv Line: 146
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_by2pd/FIFO/meta_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (1) for port 'ddr_rd_resp_data'. The port definition is at: ./src/services/dma_service.sv(30).
@@ -4207,6 +4002,8 @@ Reading pref.tcl
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/in_usr_c/conv_dataQ File: ./src/common_usr/service_converter.sv Line: 65
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/pdumeta_cpu_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (512) does not match connection size (1) for port 'out_data'. The port definition is at: ./src/common_usr/unified_fifo.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/ddr_resp_fifo File: ./src/services/dma_service.sv Line: 167
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/partition_1/my_dma/ddr_resp_fifo/genblk2/genblk1/sc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 147
 # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (32) for port 'csr_address'. The port definition is at: ./src/common/fifo_wrapper_infill.v(22).
@@ -4228,7 +4025,7 @@ Reading pref.tcl
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'in_empty'. The port definition is at: ./src/common/dc_fifo_wrapper_infill.v(32).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/dram_check_pkt_buffer/ddr_rd_resp_fifo/genblk2/genblk1/dc_pkt_fifo File: ./src/common_usr/unified_fifo.sv Line: 84
 # run -all
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 2201 of file "./input_gen/output.pkt". Expected 2201, found 2200.    : ./src/tb.sv(238)
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 24001 of file "./input_gen/output.pkt". Expected 24001, found 24000.    : ./src/tb.sv(238)
 #    Time: 0 ps  Iteration: 0  Instance: /tb
 # Warning: starting Stratix 10 and onwards, read during write mode port a no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
 # Warning: starting Stratix 10 and onwards, read during write mode port b no longer support NEW_DATA_NO_NBE_READ, simulation will behave as NEW_DATA_WITH_NBE_READ
@@ -5324,64 +5121,78 @@ Reading pref.tcl
 # Finish PKT emptylist init
 # PKT          0
 # PKT         64
+# PKT        128
+# PKT        192
+# PKT        256
+# PKT        320
+# PKT        384
+# PKT        448
+# PKT        512
+# PKT        576
+# PKT        640
+# PKT        704
+# PKT        768
+# PKT        832
+# PKT        896
+# PKT        960
 # STOP READING!
-# REG_IN_PKT                :	       100
-# REG_OUT_PKT               :	        90
-# REG_INCOMP_OUT_META       :	       100
-# REG_PARSER_OUT_META       :	       100
-# REG_FT_IN_META            :	       100
-# REG_FT_OUT_META           :	       100
-# REG_EMPTYLIST_IN          :	      1124
-# REG_EMPTYLIST_OUT         :	       100
-# REG_DM_IN_META            :	       100
-# REG_DM_OUT_META           :	       100
+# REG_IN_PKT                :	      1000
+# REG_OUT_PKT               :	       741
+# REG_INCOMP_OUT_META       :	      1000
+# REG_PARSER_OUT_META       :	      1000
+# REG_FT_IN_META            :	      1000
+# REG_FT_OUT_META           :	      1000
+# REG_EMPTYLIST_IN          :	      2024
+# REG_EMPTYLIST_OUT         :	      1000
+# REG_DM_IN_META            :	      1000
+# REG_DM_OUT_META           :	      1000
 # REG_DM_IN_FORWARD_META    :	         0
 # REG_DM_IN_DROP_META       :	         0
-# REG_DM_IN_CHECK_META      :	       100
+# REG_DM_IN_CHECK_META      :	      1000
 # REG_DM_IN_OOO_META        :	         0
 # REG_DM_IN_FORWARD_OOO_META:	         0
 # REG_NOPAYLOAD_PKT         :	         0
-# REG_DM_CHECK_PKT          :	       100
-# REG_SM_PKT                :	       100
-# REG_SM_META               :	        10
-# REG_SM_RULE               :	        10
-# REG_SM_CHECK_PKT          :	        10
-# REG_SM_CHECK_PKT_SOP      :	        10
-# REG_SM_NOCHECK_PKT        :	        90
-# REG_PG_PKT                :	        10
-# REG_PG_META               :	        10
-# REG_PG_RULE               :	        10
-# REG_PG_CHECK_PKT          :	        10
-# REG_PG_CHECK_PKT_SOP      :	        10
+# REG_DM_CHECK_PKT          :	      1000
+# REG_SM_PKT                :	      1000
+# REG_SM_META               :	       700
+# REG_SM_RULE               :	       700
+# REG_SM_CHECK_PKT          :	       700
+# REG_SM_CHECK_PKT_SOP      :	       700
+# REG_SM_NOCHECK_PKT        :	       300
+# REG_PG_PKT                :	       700
+# REG_PG_META               :	       700
+# REG_PG_RULE               :	       700
+# REG_PG_CHECK_PKT          :	       700
+# REG_PG_CHECK_PKT_SOP      :	       700
 # REG_PG_NOCHECK_PKT        :	         0
-# REG_BYPASS_PKT            :	         0
-# REG_BYPASS_PKT_SOP        :	         0
-# REG_BYPASS_META           :	         0
-# REG_BYPASS_RULE           :	         0
-# REG_NF_PKT                :	        10
-# REG_NF_META               :	        10
-# REG_NF_RULE               :	        10
-# REG_NF_CHECK_PKT          :	        10
-# REG_NF_CHECK_PKT_SOP      :	        10
-# REG_NF_NOCHECK_PKT        :	         0
-# REG_MERGE_PKT             :	        10
-# REG_MERGE_PKT_SOP         :	        10
-# REG_MERGE_META            :	        10
-# REG_MERGE_RULE            :	        10
-# REG_DMA_PKT               :	        10
+# REG_BYPASS_PKT            :	       257
+# REG_BYPASS_PKT_SOP        :	       257
+# REG_BYPASS_META           :	       257
+# REG_BYPASS_RULE           :	       257
+# REG_NF_PKT                :	       443
+# REG_NF_META               :	         2
+# REG_NF_RULE               :	         2
+# REG_NF_CHECK_PKT          :	         2
+# REG_NF_CHECK_PKT_SOP      :	         2
+# REG_NF_NOCHECK_PKT        :	       441
+# REG_MERGE_PKT             :	       259
+# REG_MERGE_PKT_SOP         :	       259
+# REG_MERGE_META            :	       259
+# REG_MERGE_RULE            :	       259
+# REG_DMA_PKT               :	       259
 # REG_CPU_NOMATCH_PKT       :	         0
 # REG_CPU_MATCH_PKT         :	         0
 # REG_CTRL                  :	         0
-# REG_MAX_DM2SM             :	         3
+# REG_MAX_DM2SM             :	        70
 # REG_MAX_SM2PG             :	        11
-# REG_MAX_PG2NF             :	         4
-# REG_MAX_BYPASS2NF         :	         3
-# REG_MAX_NF2PDU            :	        22
-# REG_SM_BYPASS_AF          :	         0
+# REG_MAX_PG2NF             :	        71
+# REG_MAX_BYPASS2NF         :	       456
+# REG_MAX_NF2PDU            :	        24
+# REG_SM_BYPASS_AF          :	        78
 # REG_SM_CDC_AF             :	         0
 # ------------
 # Done!
 # ** Note: $finish    : ./src/tb.sv(467)
-#    Time: 131750 ns  Iteration: 1  Instance: /tb
-# End time: 02:19:55 on Jun 23,2022, Elapsed time: 0:00:17
-# Errors: 0, Warnings: 1788
+#    Time: 410790 ns  Iteration: 1  Instance: /tb
+# End time: 10:43:04 on Jun 28,2022, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 1541
